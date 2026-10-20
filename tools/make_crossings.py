@@ -1,6 +1,6 @@
 """Strait crossings from red lines drawn on in-game screenshots (user, 2026-10-18).
 
-Usage: python -I tools/make_crossings.py <orbis_dir> <screenshot> <x0> <y0> <x1> <y1>
+Usage: python -I tools/make_crossings.py <orbis_dir> <screenshot> <x0> <y0> <x1> <y1> [k ox oy]
 
 <x0..y1> is a rough map area (3072 px map coordinates) that contains the screenshot. The screenshot is placed
 on the map by matching its coastlines (water = blue-grey) against source/land.png at many zoom levels; each
@@ -8,6 +8,7 @@ red line becomes a crossing {a, b} in data/crossings.json (entries from the same
 write_game_files turns them into "sea" adjacencies (straits) through the water under each line.
 """
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -16,35 +17,52 @@ import numpy as np
 from PIL import Image
 from scipy import ndimage
 
+KMIN, KMAX = float(os.environ.get("KMIN", 0.15)), float(os.environ.get("KMAX", 3.0))   # zoom range to search
+
 
 def main():
     root, shot = Path(sys.argv[1]), Path(sys.argv[2])
     X0, Y0, X1, Y1 = map(int, sys.argv[3:7])
     s = np.array(Image.open(shot).convert("RGB")).astype(int)
     r, g, b = s[..., 0], s[..., 1], s[..., 2]
-    water = (b > r + 8) & (b > g + 4) & (b < 170)
-    water = cv2.morphologyEx(water.astype(np.uint8), cv2.MORPH_OPEN, np.ones((3, 3), np.uint8)).astype(bool)
     L = np.array(Image.open(root / "source/land.png").convert("RGB")).astype(int)
     # lake channels are drawn as land in game (rivers), so they count as land here
     land = ((np.abs(L - (225, 205, 160)).max(2) < 7) | (np.abs(L - (80, 160, 230)).max(2) < 7)).astype(np.float32)
     sub = land[Y0:Y1, X0:X1]
-    T = cv2.resize((~water).astype(np.float32), None, fx=0.25, fy=0.25, interpolation=cv2.INTER_AREA)
-    best = (-1,)
-    for k in np.exp(np.linspace(np.log(0.2), np.log(3.0), 140)):       # map px per screen px
-        f = 0.25 / k
-        M = cv2.resize(sub, None, fx=f, fy=f, interpolation=cv2.INTER_AREA)
-        if T.shape[0] > M.shape[0] or T.shape[1] > M.shape[1]:
-            continue
-        res = cv2.matchTemplate(M, T, cv2.TM_CCOEFF_NORMED)
-        th, tw = T.shape                                           # patches that are (almost) all sea or all
-        mean = cv2.boxFilter(M, -1, (tw, th), normalize=True, anchor=(0, 0))   # land give bogus scores
-        mean = mean[:res.shape[0], :res.shape[1]]
-        res[~np.isfinite(res) | (mean < 0.1) | (mean > 0.9)] = -1
-        _, v, _, loc = cv2.minMaxLoc(res)
-        if v > best[0]:
-            best = (v, k, X0 + loc[0] / f, Y0 + loc[1] / f)
+
+    # The screenshots come from different map modes (terrain, political, naval), so land and water are told
+    # apart in several ways (water colour, brightness, blue-red difference, both polarities) and the way
+    # that fits the real coastlines best wins.
+    def otsu(a):
+        a8 = cv2.GaussianBlur(np.clip(a, 0, 255).astype(np.uint8), (0, 0), 2)
+        return cv2.threshold(a8, 0, 1, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1].astype(bool)
+    lum = 0.3 * r + 0.59 * g + 0.11 * b
+    water0 = (b > r + 8) & (b > g + 4) & (b < 170)
+    water0 = cv2.morphologyEx(water0.astype(np.uint8), cv2.MORPH_OPEN, np.ones((3, 3), np.uint8)).astype(bool)
+    bright, bluish = otsu(lum), otsu(np.clip(b - r + 128, 0, 255))
+    candidates = {"water colour": ~water0, "land brighter": bright, "land darker": ~bright,
+                  "land less blue": ~bluish, "land bluer": bluish}
+    best, best_name, water = (-1,), "", None
+    if len(sys.argv) >= 10:                     # known placement: k ox oy (map = k * screen + (ox, oy)), no search
+        best, best_name = (1.0, float(sys.argv[7]), float(sys.argv[8]), float(sys.argv[9])), "given by hand"
+        candidates = {}
+    for name, landmask in candidates.items():
+        T = cv2.GaussianBlur(cv2.resize(landmask.astype(np.float32), None, fx=0.25, fy=0.25, interpolation=cv2.INTER_AREA), (0, 0), 2)
+        for k in np.exp(np.linspace(np.log(KMIN), np.log(KMAX), 120)):       # map px per screen px
+            f = 0.25 / k
+            M = cv2.GaussianBlur(cv2.resize(sub, None, fx=f, fy=f, interpolation=cv2.INTER_AREA), (0, 0), 2)
+            if T.shape[0] > M.shape[0] or T.shape[1] > M.shape[1]:
+                continue
+            res = cv2.matchTemplate(M, T, cv2.TM_CCOEFF_NORMED)
+            th, tw = T.shape                                           # patches that are (almost) all sea or all
+            mean = cv2.boxFilter(M, -1, (tw, th), normalize=True, anchor=(0, 0))   # land give bogus scores
+            mean = mean[:res.shape[0], :res.shape[1]]
+            res[~np.isfinite(res) | (mean < 0.1) | (mean > 0.9)] = -1
+            _, v, _, loc = cv2.minMaxLoc(res)
+            if v > best[0]:
+                best, best_name, water = (v, k, X0 + loc[0] / f, Y0 + loc[1] / f), name, ~landmask
     v, k, ox, oy = best
-    print(f"{shot.name}: map = {k:.3f} * screen + ({ox:.0f}, {oy:.0f}), match {v:.2f}"
+    print(f"{shot.name}: map = {k:.3f} * screen + ({ox:.0f}, {oy:.0f}), match {v:.2f} (land/water by: {best_name})"
           + ("  (weak match, check the result)" if v < 0.75 else ""))
 
     red = (r > 180) & (g < 70) & (b < 70)

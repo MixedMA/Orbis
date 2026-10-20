@@ -1,0 +1,22 @@
+state={
+	id=71
+	name="STATE_71"
+	manpower = 45000
+	state_category = town
+
+	history={
+		owner = OCD
+		victory_points = { 1507 5 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = OCD
+	}
+
+	provinces={
+		1507 
+	}
+	local_supplies=0.0
+}

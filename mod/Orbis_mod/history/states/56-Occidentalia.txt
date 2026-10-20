@@ -1,0 +1,23 @@
+state={
+	id=56
+	name="STATE_56"
+	manpower = 1170000
+	state_category = town
+
+	history={
+		owner = OCD
+		victory_points = { 2867 5 }
+		victory_points = { 2344 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = OCD
+	}
+
+	provinces={
+		707 709 774 873 925 960 1056 1071 1305 1469 1533 1580 1722 1794 2250 2259 2344 2393 2423 2603 2649 2816 2867 3086 3463 3507 
+	}
+	local_supplies=0.0
+}

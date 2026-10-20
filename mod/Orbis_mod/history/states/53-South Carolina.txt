@@ -1,0 +1,27 @@
+state={
+	id=53
+	name="STATE_53"
+	manpower = 360000
+	state_category = rural
+	resources={
+		steel=4.000
+		tungsten=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = OCD
+		victory_points = { 3150 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = OCD
+	}
+
+	provinces={
+		151 254 345 372 927 1956 2846 3150 
+	}
+	local_supplies=0.0
+}

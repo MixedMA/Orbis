@@ -1,0 +1,21 @@
+state={
+	id=155
+	name="STATE_155"
+	manpower = 360000
+	state_category = rural
+
+	history={
+		owner = ATH
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = ATH
+	}
+
+	provinces={
+		448 1250 1266 1363 2678 3286 3324 3415 
+	}
+	local_supplies=0.0
+}

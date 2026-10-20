@@ -1,0 +1,26 @@
+state={
+	id=139
+	name="STATE_139"
+	manpower = 1080000
+	state_category = large_city
+	resources={
+		oil=7.000
+	}
+
+	history={
+		owner = RHO
+		victory_points = { 459 10 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 4
+			air_base = 3
+		}
+		add_core_of = RHO
+	}
+
+	provinces={
+		459 750 1078 1364 1508 2638 2877 3003 
+	}
+	local_supplies=0.0
+}

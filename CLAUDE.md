@@ -101,7 +101,8 @@ write_game_files → render_overview → validate_mod.
   nearest painted owner; in states.png lake colour takes the nearest state colour (sea colour = no state).
 - Strait crossings (user): red lines on in-game screenshots `source/edits/crossings_*.png` ->
   `python -I tools/make_crossings.py . <shot> x0 y0 x1 y1` (rough map area; fits the screenshot by coastline,
-  check the printed match >= 0.75) -> `data/crossings.json` -> write_game_files writes them to adjacencies.csv.
+  check the printed match >= 0.75; naval/sea-zone screenshots match badly: pass a window of the map and, if that fails,
+  `k ox oy` by hand as extra arguments, then check the fit by eye; env KMIN/KMAX limit the zoom search) -> `data/crossings.json` -> write_game_files writes them to adjacencies.csv.
 - Loading screens / menu backgrounds (user): put pictures (png/jpg) in `source/loadingscreens/`;
   tools/write_loadingscreens.py (in run_all) makes 1920x1440 DXT1 dds files, the background list and
   replace_path "common/frontend/backgrounds" in both descriptors. Not tested in game yet.

@@ -1,0 +1,25 @@
+state={
+	id=159
+	name="STATE_159"
+	manpower = 160000
+	state_category = town
+	resources={
+		rubber=9.000
+	}
+
+	history={
+		owner = PSH
+		victory_points = { 1151 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1151 = { naval_base = 1 }
+		}
+		add_core_of = PSH
+	}
+
+	provinces={
+		1151 1302 1316 1538 2586 2653 2690 3173 
+	}
+	local_supplies=0.0
+}

@@ -1,0 +1,22 @@
+state={
+	id=202
+	name="STATE_202"
+	manpower = 180000
+	state_category = town
+
+	history={
+		owner = RME
+		victory_points = { 2762 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			2762 = { naval_base = 1 }
+		}
+		add_core_of = RME
+	}
+
+	provinces={
+		592 783 1376 1568 2101 2372 2762 2936 3237 
+	}
+	local_supplies=0.0
+}

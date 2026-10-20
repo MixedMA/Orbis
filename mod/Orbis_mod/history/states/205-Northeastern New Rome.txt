@@ -1,0 +1,19 @@
+state={
+	id=205
+	name="STATE_205"
+	manpower = 120000
+	state_category = rural
+
+	history={
+		owner = RME
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = RME
+	}
+
+	provinces={
+		1223 1578 2033 2716 3198 3354 
+	}
+	local_supplies=0.0
+}

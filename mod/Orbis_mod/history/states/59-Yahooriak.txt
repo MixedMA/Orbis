@@ -1,0 +1,26 @@
+state={
+	id=59
+	name="STATE_59"
+	manpower = 810000
+	state_category = rural
+	resources={
+		oil=6.000
+		rubber=7.000
+	}
+
+	history={
+		owner = OCD
+		victory_points = { 2589 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = OCD
+	}
+
+	provinces={
+		801 904 1061 1490 1718 1902 1953 1970 2290 2322 2366 2589 2696 2773 3120 3138 3206 3503 
+	}
+	local_supplies=0.0
+}

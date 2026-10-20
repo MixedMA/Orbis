@@ -1,0 +1,22 @@
+state={
+	id=187
+	name="STATE_187"
+	manpower = 120000
+	state_category = town
+
+	history={
+		owner = PLG
+		victory_points = { 1595 5 }
+		victory_points = { 2355 1 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = PLG
+	}
+
+	provinces={
+		1185 1595 2291 2355 2615 3106 
+	}
+	local_supplies=0.0
+}

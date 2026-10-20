@@ -1,0 +1,22 @@
+state={
+	id=161
+	name="STATE_161"
+	manpower = 180000
+	state_category = rural
+	resources={
+		rubber=9.000
+	}
+
+	history={
+		owner = PSH
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PSH
+	}
+
+	provinces={
+		591 596 700 1081 1675 2361 2729 2974 3309 
+	}
+	local_supplies=0.0
+}

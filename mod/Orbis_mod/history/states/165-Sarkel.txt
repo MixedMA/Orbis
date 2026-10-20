@@ -1,0 +1,24 @@
+state={
+	id=165
+	name="STATE_165"
+	manpower = 120000
+	state_category = rural
+	resources={
+		steel=8.000
+		tungsten=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = KHZ
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KHZ
+	}
+
+	provinces={
+		818 849 1164 1919 2612 3461 
+	}
+	local_supplies=0.0
+}
