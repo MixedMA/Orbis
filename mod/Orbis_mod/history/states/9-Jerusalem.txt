@@ -2,7 +2,7 @@ state={
 	id=9
 	name="STATE_9"
 	manpower = 3831000
-	state_category = megalopolis
+	state_category = metropolis
 	resources={
 		steel=4.000
 		tungsten=2.000
@@ -16,8 +16,8 @@ state={
 		victory_points = { 2381 5 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 9
-			arms_factory = 4
+			industrial_complex = 7
+			arms_factory = 3
 			2381 = { naval_base = 3 }
 		}
 		add_core_of = CLB

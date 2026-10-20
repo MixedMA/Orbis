@@ -2,7 +2,7 @@ state={
 	id=74
 	name="STATE_74"
 	manpower = 202000
-	state_category = rural
+	state_category = town
 	resources={
 		steel=8.000
 		tungsten=2.000
@@ -13,8 +13,8 @@ state={
 		owner = SCP
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
+			industrial_complex = 2
+			arms_factory = 2
 		}
 		add_core_of = SCP
 	}

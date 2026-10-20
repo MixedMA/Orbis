@@ -2,7 +2,7 @@ state={
 	id=42
 	name="STATE_42"
 	manpower = 958000
-	state_category = rural
+	state_category = town
 	resources={
 		aluminium=2.000
 	}
@@ -11,7 +11,7 @@ state={
 		owner = OCD
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+			industrial_complex = 2
 			arms_factory = 1
 		}
 		add_core_of = OCD

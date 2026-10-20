@@ -2,7 +2,7 @@ state={
 	id=52
 	name="STATE_52"
 	manpower = 2089000
-	state_category = large_town
+	state_category = large_city
 
 	history={
 		owner = OCD
@@ -10,8 +10,8 @@ state={
 		victory_points = { 3263 5 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 4
-			arms_factory = 1
+			industrial_complex = 6
+			arms_factory = 2
 			2371 = { naval_base = 3 }
 		}
 		add_core_of = OCD

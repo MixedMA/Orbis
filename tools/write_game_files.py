@@ -198,13 +198,25 @@ def main():
     if sdir.exists():
         shutil.rmtree(sdir)
     # Spread each country's start economy (scenario.ECONOMY) over its states by largest remainder.
-    def allocate(total, weight):
-        tot = sum(weight.values())
-        raw = {k: total * w / tot for k, w in weight.items()}
-        out = {k: int(v) for k, v in raw.items()}
-        for k in sorted(raw, key=lambda k: raw[k] - out[k], reverse=True)[:total - sum(out.values())]:
-            out[k] += 1
-        return out
+    def allocate(total, weight, cap=None):
+        """Spread total over the keys by weight (largest remainder); no key gets more than cap, the rest goes on."""
+        out, left, free = {}, total, set(weight)
+        while free and left > 0:
+            tot = sum(weight[k] for k in free)
+            raw = {k: left * weight[k] / tot for k in free}
+            over = [k for k in free if cap is not None and raw[k] > cap]
+            if over:
+                for k in over:
+                    out[k] = cap
+                    left -= cap
+                    free.discard(k)
+                continue
+            base = {k: int(v) for k, v in raw.items()}
+            for k in sorted(free, key=lambda k: raw[k] - base[k], reverse=True)[:left - sum(base.values())]:
+                base[k] += 1
+            out.update(base)
+            break
+        return {k: out.get(k, 0) for k in weight}
     econ = {}
     for tag, (n_civ, n_mil, pop) in ECONOMY.items():
         mine = [s for s in states if state_tag[s["id"]] == tag and not s.get("impassable")]
@@ -214,7 +226,10 @@ def main():
         wf = {s["id"]: (3.0 if s["id"] == cap else 1.0) * (2.0 if s["cities"] else 0.4) * (1 + 0.1 * len(s["provinces"]))
               for s in mine}
         wp = {s["id"]: len(s["provinces"]) * (1 + 1.5 * len(s["cities"])) * (3 if s["id"] == cap else 1) for s in mine}
-        civ_, mil_, pop_ = allocate(n_civ, wf), allocate(n_mil, wf), allocate(pop // 1000, wp)
+        # no state gets more than about 2.5 times the average, so the capital does not swallow everything
+        civ_ = allocate(n_civ, wf, max(3, -(-n_civ * 5 // (2 * len(mine)))))
+        mil_ = allocate(n_mil, wf, max(2, -(-n_mil * 5 // (2 * len(mine)))))
+        pop_ = allocate(pop // 1000, wp)
         for s in mine:
             econ[s["id"]] = (civ_[s["id"]], mil_[s["id"]], pop_[s["id"]] * 1000)
         print(f"{tag}: {n_civ} civilian + {n_mil} military factories, population {pop:,} over {len(mine)} states")
@@ -234,11 +249,14 @@ def main():
         else:
             cat = "town" if s["cities"] else "rural"
             infra, civ, mil = (3, 2 if s["cities"] else 1, 1) if major else (2, 1 if s["cities"] else 0, 0)
+        extra_slots = 0
         if s["id"] in econ:
             civ, mil, manpower = econ[s["id"]]
             need = civ + mil
-            if need > {"rural": 2, "town": 4, "large_town": 5, "city": 6, "large_city": 8, "metropolis": 10, "megalopolis": 12}.get(cat, 2):
+            have = {"rural": 2, "town": 4, "large_town": 5, "city": 6, "large_city": 8, "metropolis": 10, "megalopolis": 12}
+            if need > have.get(cat, 2):
                 cat = next((c for sl, c in SLOTS if sl >= need), "megalopolis")
+            extra_slots = max(0, need - have[cat])     # the game cuts factories beyond the slots, so add slots
         tm = {} if s.get("impassable") else s["terrain_mix"]
         res = {}
         if tm.get("mountain", 0) + tm.get("hills", 0) >= 3:
@@ -258,6 +276,8 @@ def main():
         if naval and not wild:
             prov_buildings = f"\t\t\t{naval} = {{ naval_base = {3 if major else 1} }}\n"
         cores = f"\t\tadd_core_of = {tag}\n"
+        if s["id"] in econ and extra_slots:
+            cores += f"\t\tadd_extra_state_shared_building_slots = {extra_slots}\n"
         lines = [
             "state={", f"\tid={s['id']}", f"\tname=\"STATE_{s['id']}\"",
             f"\tmanpower = {manpower}", f"\tstate_category = {cat}",

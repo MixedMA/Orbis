@@ -2,7 +2,7 @@ state={
 	id=80
 	name="STATE_80"
 	manpower = 212000
-	state_category = rural
+	state_category = town
 	resources={
 		steel=4.000
 		tungsten=2.000
@@ -15,8 +15,8 @@ state={
 		victory_points = { 3389 1 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
+			industrial_complex = 2
+			arms_factory = 2
 		}
 		add_core_of = SCP
 	}

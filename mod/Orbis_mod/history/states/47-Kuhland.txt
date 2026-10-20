@@ -2,7 +2,7 @@ state={
 	id=47
 	name="STATE_47"
 	manpower = 3591000
-	state_category = megalopolis
+	state_category = metropolis
 	resources={
 		steel=4.000
 		tungsten=2.000
@@ -14,8 +14,8 @@ state={
 		victory_points = { 1119 10 }
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 13
-			arms_factory = 4
+			industrial_complex = 7
+			arms_factory = 2
 			air_base = 3
 			1119 = { naval_base = 3 }
 		}

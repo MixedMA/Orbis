@@ -9,11 +9,12 @@ state={
 		victory_points = { 2527 10 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 28
+			industrial_complex = 25
 			arms_factory = 7
 			air_base = 1
 		}
 		add_core_of = CAE
+		add_extra_state_shared_building_slots = 20
 	}
 
 	provinces={

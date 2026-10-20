@@ -19,7 +19,7 @@ state={
 		victory_points = { 809 1 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 5
+			industrial_complex = 6
 			arms_factory = 2
 		}
 		add_core_of = CLB
