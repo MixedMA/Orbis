@@ -1,0 +1,21 @@
+state={
+	id=39
+	name="STATE_39"
+	manpower = 495000
+	state_category = rural
+
+	history={
+		owner = OCD
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = OCD
+	}
+
+	provinces={
+		654 757 814 830 908 2051 2564 3162 3211 3435 3532 
+	}
+	local_supplies=0.0
+}

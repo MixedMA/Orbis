@@ -1,0 +1,30 @@
+state={
+	id=52
+	name="STATE_52"
+	manpower = 1665000
+	state_category = town
+	resources={
+		steel=4.000
+		tungsten=2.000
+		chromium=2.000
+		oil=11.000
+		rubber=11.000
+		aluminium=2.000
+	}
+
+	history={
+		owner = OCD
+		victory_points = { 1432 5 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = OCD
+	}
+
+	provinces={
+		298 326 387 442 848 963 998 1022 1155 1362 1418 1432 1767 1797 1910 1939 1952 1987 2024 2169 2302 2346 2391 2514 2534 2580 2657 2742 2838 2887 2940 2965 2966 3012 3249 3486 3574 
+	}
+	local_supplies=0.0
+}

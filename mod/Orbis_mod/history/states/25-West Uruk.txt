@@ -1,0 +1,24 @@
+state={
+	id=25
+	name="STATE_25"
+	manpower = 630000
+	state_category = rural
+	resources={
+		rubber=16.000
+	}
+
+	history={
+		owner = CLB
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = CLB
+	}
+
+	provinces={
+		284 302 431 1092 1128 1308 1345 1710 2010 2703 2753 3095 3379 3502 
+	}
+	local_supplies=0.0
+}

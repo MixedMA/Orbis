@@ -1,0 +1,22 @@
+state={
+	id=186
+	name="STATE_186"
+	manpower = 140000
+	state_category = rural
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = ALM
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ALM
+	}
+
+	provinces={
+		443 464 1001 1084 1985 3228 3370 
+	}
+	local_supplies=0.0
+}

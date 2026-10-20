@@ -1,0 +1,22 @@
+state={
+	id=90
+	name="STATE_90"
+	manpower = 80000
+	state_category = town
+
+	history={
+		owner = VBN
+		victory_points = { 1664 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1664 = { naval_base = 1 }
+		}
+		add_core_of = VBN
+	}
+
+	provinces={
+		1664 2509 2513 2905 
+	}
+	local_supplies=0.0
+}

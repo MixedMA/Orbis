@@ -1,0 +1,25 @@
+state={
+	id=158
+	name="STATE_158"
+	manpower = 315000
+	state_category = rural
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = ATH
+		victory_points = { 3239 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = ATH
+	}
+
+	provinces={
+		752 2399 2712 3023 3235 3239 3292 
+	}
+	local_supplies=0.0
+}

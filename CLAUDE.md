@@ -40,6 +40,11 @@ BMC Minecraft server "Orbis" (Season 1, 4000×4000 blocks, seed -109313319010159
 - Do not use vanilla tags (OCC/RHD/KHA/CHA/ROM/PAL/BER... collide). Tags: see `data/countries.json`.
 - World edge = impassable mountain wall (no sea margin). Map 3072×3072, world 3008 px centred, 32 px wall.
 
+## Git
+The repository is public: https://github.com/MixedMA/Orbis (branch main). The user wants every change committed and pushed,
+always: after each finished piece of work `git add -A && git commit && git push` (identity MixedMA, repo-local config).
+build/, out/ and most of .work/ are ignored; no Paradox game files and no personal data in the repo.
+
 ## Pipeline (run `sh tools/run_all.sh`, ~6 min, ends with validate_mod.py)
 build_base → build_provinces → write_provinces → write_terrain → write_rivers → build_states →
 write_game_files → render_overview → validate_mod.

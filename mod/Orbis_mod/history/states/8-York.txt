@@ -1,0 +1,29 @@
+state={
+	id=8
+	name="STATE_8"
+	manpower = 1575000
+	state_category = town
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = CLB
+		victory_points = { 485 5 }
+		victory_points = { 1407 5 }
+		victory_points = { 2294 5 }
+		victory_points = { 932 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			485 = { naval_base = 3 }
+		}
+		add_core_of = CLB
+	}
+
+	provinces={
+		485 616 628 650 716 731 736 737 741 742 816 915 932 1064 1136 1189 1267 1407 1435 1437 1480 1612 1929 2076 2294 2687 2755 2840 2897 2957 3247 3306 3431 3509 3567 
+	}
+	local_supplies=0.0
+}

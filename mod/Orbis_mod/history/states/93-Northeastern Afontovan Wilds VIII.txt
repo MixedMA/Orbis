@@ -1,0 +1,19 @@
+state={
+	id=93
+	name="STATE_93"
+	manpower = 40000
+	state_category = rural
+
+	history={
+		owner = VBN
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = VBN
+	}
+
+	provinces={
+		170 937 
+	}
+	local_supplies=0.0
+}

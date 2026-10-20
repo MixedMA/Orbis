@@ -71,34 +71,6 @@ W01 = {
 	color = rgb { 128 124 110 }
 	color_ui = rgb { 180 175 157 }
 }
-W02 = {
-	color = rgb { 128 124 110 }
-	color_ui = rgb { 180 175 157 }
-}
-W03 = {
-	color = rgb { 128 124 110 }
-	color_ui = rgb { 180 175 157 }
-}
-W04 = {
-	color = rgb { 128 124 110 }
-	color_ui = rgb { 180 175 157 }
-}
-W05 = {
-	color = rgb { 128 124 110 }
-	color_ui = rgb { 180 175 157 }
-}
-W06 = {
-	color = rgb { 128 124 110 }
-	color_ui = rgb { 180 175 157 }
-}
-W07 = {
-	color = rgb { 128 124 110 }
-	color_ui = rgb { 180 175 157 }
-}
-W08 = {
-	color = rgb { 128 124 110 }
-	color_ui = rgb { 180 175 157 }
-}
 
 D01 = {
 	color = rgb { 122 179 97 }

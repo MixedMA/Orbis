@@ -1,0 +1,22 @@
+state={
+	id=105
+	name="STATE_105"
+	manpower = 140000
+	state_category = rural
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = UBR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = UBR
+	}
+
+	provinces={
+		631 971 1748 2298 2358 2607 2879 
+	}
+	local_supplies=0.0
+}

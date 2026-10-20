@@ -1,0 +1,24 @@
+state={
+	id=41
+	name="STATE_41"
+	manpower = 900000
+	state_category = rural
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = OCD
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = OCD
+	}
+
+	provinces={
+		567 996 1299 1336 1352 1623 1629 1775 1807 2042 2095 2211 2314 2523 2744 2768 2864 2931 2980 3536 
+	}
+	local_supplies=0.0
+}

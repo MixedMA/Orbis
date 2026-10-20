@@ -1,0 +1,26 @@
+state={
+	id=19
+	name="STATE_19"
+	manpower = 945000
+	state_category = large_city
+	resources={
+		rubber=5.000
+	}
+
+	history={
+		owner = CLB
+		victory_points = { 1047 10 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 4
+			air_base = 3
+		}
+		add_core_of = CLB
+	}
+
+	provinces={
+		1047 1644 2227 2421 2601 2814 3213 
+	}
+	local_supplies=0.0
+}

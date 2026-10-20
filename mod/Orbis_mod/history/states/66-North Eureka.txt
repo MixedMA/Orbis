@@ -1,0 +1,24 @@
+state={
+	id=66
+	name="STATE_66"
+	manpower = 180000
+	state_category = rural
+	resources={
+		oil=6.000
+	}
+
+	history={
+		owner = OCD
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = OCD
+	}
+
+	provinces={
+		2570 2659 3401 3413 
+	}
+	local_supplies=0.0
+}

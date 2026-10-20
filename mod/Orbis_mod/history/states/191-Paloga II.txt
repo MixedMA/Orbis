@@ -1,0 +1,21 @@
+state={
+	id=191
+	name="STATE_191"
+	manpower = 20000
+	state_category = town
+
+	history={
+		owner = PLG
+		victory_points = { 923 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = PLG
+	}
+
+	provinces={
+		923 
+	}
+	local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=82
+	name="STATE_82"
+	manpower = 405000
+	state_category = rural
+
+	history={
+		owner = SCP
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = SCP
+	}
+
+	provinces={
+		280 856 1067 2070 2152 2320 2720 3025 3326 
+	}
+	local_supplies=0.0
+}

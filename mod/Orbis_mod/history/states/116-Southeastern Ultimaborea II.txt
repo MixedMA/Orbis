@@ -1,0 +1,19 @@
+state={
+	id=116
+	name="STATE_116"
+	manpower = 100000
+	state_category = rural
+
+	history={
+		owner = UBR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = UBR
+	}
+
+	provinces={
+		318 322 773 3179 3265 
+	}
+	local_supplies=0.0
+}
