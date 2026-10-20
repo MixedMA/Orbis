@@ -1,0 +1,21 @@
+state={
+	id=138
+	name="STATE_138"
+	manpower = 630000
+	state_category = rural
+
+	history={
+		owner = RHO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = RHO
+	}
+
+	provinces={
+		343 1000 1245 1582 1721 1796 2283 2365 2684 2697 3216 3245 3513 3561 
+	}
+	local_supplies=0.0
+}

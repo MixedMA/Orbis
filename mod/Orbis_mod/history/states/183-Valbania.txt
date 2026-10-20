@@ -1,0 +1,24 @@
+state={
+	id=183
+	name="STATE_183"
+	manpower = 120000
+	state_category = city
+
+	history={
+		owner = VLB
+		victory_points = { 3175 10 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 1
+			3175 = { naval_base = 1 }
+		}
+		add_core_of = VLB
+	}
+
+	provinces={
+		1844 3175 
+	}
+	local_supplies=0.0
+}

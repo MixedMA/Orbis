@@ -1,0 +1,25 @@
+state={
+	id=203
+	name="STATE_203"
+	manpower = 180000
+	state_category = rural
+	resources={
+		steel=4.000
+		tungsten=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = RME
+		victory_points = { 2037 1 }
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = RME
+	}
+
+	provinces={
+		1157 1228 1860 1909 2037 2247 2460 3359 3495 
+	}
+	local_supplies=0.0
+}

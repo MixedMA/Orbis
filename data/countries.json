@@ -173,7 +173,7 @@
   "culture": "western_european",
   "ideology": "democratic",
   "leader": "Valbano",
-  "capital_city": "Valbania",
+  "capital_city": "Alanta",
   "playable": false
  },
  {
@@ -373,6 +373,29 @@
   "leader": "Clan Gathering",
   "capital_city": "Tuareg",
   "playable": false
+ },
+ {
+  "index": 18,
+  "tag": "VLB",
+  "name": "Valbania",
+  "long": "Most Serene Republic of Valbania",
+  "adj": "Valbanian",
+  "color": [
+   190,
+   105,
+   225
+  ],
+  "map_color": [
+   205,
+   120,
+   255
+  ],
+  "culture": "western_european",
+  "ideology": "democratic",
+  "leader": "Valbano",
+  "capital_city": "Valbania",
+  "playable": false,
+  "overlord": "VBN"
  },
  {
   "index": 0,

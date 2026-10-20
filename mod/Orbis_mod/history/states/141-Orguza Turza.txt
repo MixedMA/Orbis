@@ -1,0 +1,22 @@
+state={
+	id=141
+	name="STATE_141"
+	manpower = 225000
+	state_category = town
+
+	history={
+		owner = RHO
+		victory_points = { 587 5 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = RHO
+	}
+
+	provinces={
+		587 1335 1596 3030 3325 
+	}
+	local_supplies=0.0
+}

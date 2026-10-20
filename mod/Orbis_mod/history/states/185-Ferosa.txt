@@ -1,0 +1,22 @@
+state={
+	id=185
+	name="STATE_185"
+	manpower = 220000
+	state_category = rural
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = PLG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PLG
+	}
+
+	provinces={
+		504 655 1083 1199 1279 1419 1448 1802 2035 2060 3538 
+	}
+	local_supplies=0.0
+}

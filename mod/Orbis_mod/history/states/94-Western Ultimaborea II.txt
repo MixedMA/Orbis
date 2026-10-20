@@ -1,0 +1,21 @@
+state={
+	id=94
+	name="STATE_94"
+	manpower = 120000
+	state_category = town
+
+	history={
+		owner = UBR
+		victory_points = { 2853 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = UBR
+	}
+
+	provinces={
+		306 766 1379 1655 2052 2853 
+	}
+	local_supplies=0.0
+}

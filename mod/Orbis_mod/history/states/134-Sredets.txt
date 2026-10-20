@@ -1,0 +1,22 @@
+state={
+	id=134
+	name="STATE_134"
+	manpower = 405000
+	state_category = rural
+
+	history={
+		owner = RHO
+		victory_points = { 3184 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = RHO
+	}
+
+	provinces={
+		843 1070 1426 1694 1810 1964 2075 3102 3184 
+	}
+	local_supplies=0.0
+}

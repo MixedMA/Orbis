@@ -1,0 +1,26 @@
+state={
+	id=75
+	name="STATE_75"
+	manpower = 1800000
+	state_category = rural
+	resources={
+		steel=8.000
+		tungsten=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = SCP
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = SCP
+	}
+
+	provinces={
+		490 560 740 883 929 992 1179 1311 1505 1521 1632 1662 1821 1822 1836 2006 2017 2054 2092 2120 2145 2174 2458 2481 2648 2677 2852 2917 3039 3045 3048 3050 3127 3180 3196 3271 3279 3382 3433 3607 
+	}
+	local_supplies=0.0
+}

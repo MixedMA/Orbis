@@ -67,6 +67,10 @@ TRG = {
 	color = rgb { 235 160 95 }
 	color_ui = rgb { 255 220 138 }
 }
+VLB = {
+	color = rgb { 190 105 225 }
+	color_ui = rgb { 255 151 255 }
+}
 W01 = {
 	color = rgb { 128 124 110 }
 	color_ui = rgb { 180 175 157 }

@@ -1,0 +1,20 @@
+state={
+	id=97
+	name="STATE_97"
+	manpower = 160000
+	state_category = rural
+
+	history={
+		owner = UBR
+		victory_points = { 2368 1 }
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = UBR
+	}
+
+	provinces={
+		218 417 1739 2288 2368 3034 3562 3602 
+	}
+	local_supplies=0.0
+}

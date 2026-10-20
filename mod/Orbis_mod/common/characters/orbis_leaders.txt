@@ -118,6 +118,13 @@ characters = {
 			expire = "2999.1.1.1"
 		}
 	}
+	VLB_leader = {
+		name = "Valbano"
+		country_leader = {
+			ideology = conservatism
+			expire = "2999.1.1.1"
+		}
+	}
 	W01_leader = {
 		name = "No One"
 		country_leader = {

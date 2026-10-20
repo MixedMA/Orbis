@@ -1,4 +1,4 @@
-capital = 94
+capital = 88
 
 set_research_slots = 2
 set_stability = 0.6
@@ -28,3 +28,8 @@ set_popularities = {
 }
 
 recruit_character = VBN_leader
+
+set_autonomy = {
+	target = VLB
+	autonomous_state = autonomy_puppet
+}

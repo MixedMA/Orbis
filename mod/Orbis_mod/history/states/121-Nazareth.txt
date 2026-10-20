@@ -1,0 +1,24 @@
+state={
+	id=121
+	name="STATE_121"
+	manpower = 120000
+	state_category = city
+
+	history={
+		owner = LLY
+		victory_points = { 2896 10 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 1
+			2896 = { naval_base = 1 }
+		}
+		add_core_of = LLY
+	}
+
+	provinces={
+		1562 2896 
+	}
+	local_supplies=0.0
+}
