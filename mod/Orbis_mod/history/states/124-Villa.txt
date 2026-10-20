@@ -1,16 +1,16 @@
 state={
 	id=124
 	name="STATE_124"
-	manpower = 480000
-	state_category = city
+	manpower = 1915000
+	state_category = megalopolis
 
 	history={
 		owner = CAE
 		victory_points = { 2527 10 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 3
-			arms_factory = 1
+			industrial_complex = 28
+			arms_factory = 7
 			air_base = 1
 		}
 		add_core_of = CAE

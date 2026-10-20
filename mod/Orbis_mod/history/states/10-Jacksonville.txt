@@ -1,8 +1,8 @@
 state={
 	id=10
 	name="STATE_10"
-	manpower = 855000
-	state_category = town
+	manpower = 1155000
+	state_category = large_town
 	resources={
 		rubber=12.000
 		aluminium=2.000
@@ -13,7 +13,7 @@ state={
 		victory_points = { 2493 5 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
+			industrial_complex = 4
 			arms_factory = 1
 		}
 		add_core_of = CLB

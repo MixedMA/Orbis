@@ -107,6 +107,9 @@ write_game_files → render_overview → validate_mod.
   tools/write_loadingscreens.py (in run_all) makes 1920x1440 DXT1 dds files, the background list and
   replace_path "common/frontend/backgrounds" in both descriptors. Not tested in game yet.
 - Anthropian states with a city are named after it (Riverwood, Gvareny; user, 2026-10-19); states without a city keep their names.
+- Flags: `source/flags/<TAG>.png` (user, 2026-10-20: OCD ATH BRG CLB VBN RME SCP RHO PLG CAE; the 5th picture was for "Alanta" and went to
+  Valanta VBN), write_game_files fits them to 82x52/41x26/10x7 tga; other countries keep the placeholder.
+- Start economy per country in `scenario.ECONOMY` (civil + military factories, population), spread over the states by write_game_files.
 - Rivers must stay single-strand (no loops/branches).
 - No pixel-corner contacts between provinces (`build_provinces.fix_corner_contacts`, checked by validate_mod):
   HOI4 counts them as adjacency. Province 291 touching the sea only at a corner was the game-start crash

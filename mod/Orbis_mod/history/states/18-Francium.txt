@@ -1,7 +1,7 @@
 state={
 	id=18
 	name="STATE_18"
-	manpower = 270000
+	manpower = 146000
 	state_category = rural
 
 	history={
@@ -9,8 +9,6 @@ state={
 		victory_points = { 3529 1 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
 		}
 		add_core_of = CLB
 	}

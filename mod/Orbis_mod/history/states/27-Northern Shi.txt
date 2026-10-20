@@ -1,7 +1,7 @@
 state={
 	id=27
 	name="STATE_27"
-	manpower = 315000
+	manpower = 170000
 	state_category = rural
 	resources={
 		aluminium=2.000
@@ -11,8 +11,6 @@ state={
 		owner = CLB
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
 		}
 		add_core_of = CLB
 	}

@@ -21,6 +21,8 @@ You edit the **painted maps** in `source/` and run the pipeline, which writes th
 | Terrain of single provinces | `data/terrain_overrides.json` |
 | Strait crossings | `data/crossings.json` (see `tools/make_crossings.py`) |
 | Loading screens | pictures in `source/loadingscreens/` |
+| Flags | `source/flags/<TAG>.png` (any size; scaled and cropped to the game's flag shape; countries without one get a placeholder) |
+| Start economy (factories, population) | `ECONOMY` in `tools/scenario.py` |
 
 Use exact colours with no anti-aliasing when painting. `CLAUDE.md` has the details: decisions, the file formats and
 the problems found so far (read it before changing the pipeline).

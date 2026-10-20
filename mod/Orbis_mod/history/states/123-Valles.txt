@@ -1,8 +1,8 @@
 state={
 	id=123
 	name="STATE_123"
-	manpower = 200000
-	state_category = rural
+	manpower = 319000
+	state_category = town
 	resources={
 		rubber=5.000
 	}
@@ -11,6 +11,8 @@ state={
 		owner = CAE
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
 		}
 		add_core_of = CAE
 	}

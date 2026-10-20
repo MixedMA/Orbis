@@ -12,11 +12,11 @@ import sys
 from pathlib import Path
 
 import numpy as np
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageOps
 from scipy import ndimage
 
 sys.path.insert(0, str(Path(__file__).parent))
-from scenario import BOOKMARKS, DEFAULT_COUNTRY, END, FACTIONS, MAJORS, START, TOWNS  # noqa: E402
+from scenario import BOOKMARKS, DEFAULT_COUNTRY, ECONOMY, END, FACTIONS, MAJORS, START, TOWNS  # noqa: E402
 
 LAST_ELECTION = f"{int(START.split('.')[0]) - 4}.1.1"
 WILD_TAGS = 1        # all unclaimed land is one wild country (user, 2026-10-20)
@@ -197,6 +197,28 @@ def main():
     sdir = mod / "history/states"
     if sdir.exists():
         shutil.rmtree(sdir)
+    # Spread each country's start economy (scenario.ECONOMY) over its states by largest remainder.
+    def allocate(total, weight):
+        tot = sum(weight.values())
+        raw = {k: total * w / tot for k, w in weight.items()}
+        out = {k: int(v) for k, v in raw.items()}
+        for k in sorted(raw, key=lambda k: raw[k] - out[k], reverse=True)[:total - sum(out.values())]:
+            out[k] += 1
+        return out
+    econ = {}
+    for tag, (n_civ, n_mil, pop) in ECONOMY.items():
+        mine = [s for s in states if state_tag[s["id"]] == tag and not s.get("impassable")]
+        if not mine:
+            continue
+        cap = capital_state[tag]
+        wf = {s["id"]: (3.0 if s["id"] == cap else 1.0) * (2.0 if s["cities"] else 0.4) * (1 + 0.1 * len(s["provinces"]))
+              for s in mine}
+        wp = {s["id"]: len(s["provinces"]) * (1 + 1.5 * len(s["cities"])) * (3 if s["id"] == cap else 1) for s in mine}
+        civ_, mil_, pop_ = allocate(n_civ, wf), allocate(n_mil, wf), allocate(pop // 1000, wp)
+        for s in mine:
+            econ[s["id"]] = (civ_[s["id"]], mil_[s["id"]], pop_[s["id"]] * 1000)
+        print(f"{tag}: {n_civ} civilian + {n_mil} military factories, population {pop:,} over {len(mine)} states")
+    SLOTS = [(4, "town"), (5, "large_town"), (6, "city"), (8, "large_city"), (10, "metropolis"), (12, "megalopolis")]
     for s in states:
         tag = state_tag[s["id"]]
         major, wild = tag in MAJORS, by_tag[tag].get("wild", False)
@@ -212,6 +234,11 @@ def main():
         else:
             cat = "town" if s["cities"] else "rural"
             infra, civ, mil = (3, 2 if s["cities"] else 1, 1) if major else (2, 1 if s["cities"] else 0, 0)
+        if s["id"] in econ:
+            civ, mil, manpower = econ[s["id"]]
+            need = civ + mil
+            if need > {"rural": 2, "town": 4, "large_town": 5, "city": 6, "large_city": 8, "metropolis": 10, "megalopolis": 12}.get(cat, 2):
+                cat = next((c for sl, c in SLOTS if sl >= need), "megalopolis")
         tm = {} if s.get("impassable") else s["terrain_mix"]
         res = {}
         if tm.get("mountain", 0) + tm.get("hills", 0) >= 3:
@@ -367,9 +394,16 @@ def main():
     w(mod / "common/characters/orbis_leaders.txt", "characters = {\n" + "".join(chars) + "}\n")
     w(mod / "history/units/.keep", "")
 
-    # ---------- flags (placeholders until real flags are made) ----------
+    # ---------- flags: the user's pictures in source/flags/<TAG>.png, a coloured placeholder otherwise ----------
     for c in countries:
         for sub, size in (("", (82, 52)), ("medium/", (41, 26)), ("small/", (10, 7))):
+            own = root / f"source/flags/{c['tag']}.png"
+            if own.exists():                     # scaled and centre-cropped to the flag shape
+                img = ImageOps.fit(Image.open(own).convert("RGBA"), size, Image.LANCZOS)
+                p = mod / f"gfx/flags/{sub}{c['tag']}.tga"
+                p.parent.mkdir(parents=True, exist_ok=True)
+                img.save(p)
+                continue
             img = Image.new("RGBA", size, tuple(c["color"]) + (255,))
             d = ImageDraw.Draw(img)
             light = tuple(min(255, v + 70) for v in c["color"]) + (255,)

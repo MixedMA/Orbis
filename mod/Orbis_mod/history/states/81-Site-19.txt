@@ -1,16 +1,16 @@
 state={
 	id=81
 	name="STATE_81"
-	manpower = 1215000
-	state_category = town
+	manpower = 341000
+	state_category = metropolis
 
 	history={
 		owner = SCP
 		victory_points = { 3008 5 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 1
+			industrial_complex = 5
+			arms_factory = 4
 		}
 		add_core_of = SCP
 	}

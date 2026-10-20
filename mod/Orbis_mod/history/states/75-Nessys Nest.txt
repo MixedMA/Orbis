@@ -1,15 +1,13 @@
 state={
 	id=75
 	name="STATE_75"
-	manpower = 225000
+	manpower = 25000
 	state_category = rural
 
 	history={
 		owner = SCP
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
 		}
 		add_core_of = SCP
 	}

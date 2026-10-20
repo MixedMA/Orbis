@@ -1,16 +1,16 @@
 state={
 	id=148
 	name="STATE_148"
-	manpower = 360000
-	state_category = town
+	manpower = 2809000
+	state_category = large_town
 
 	history={
 		owner = ATH
 		victory_points = { 1211 5 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 1
+			industrial_complex = 3
+			arms_factory = 2
 			1211 = { naval_base = 3 }
 		}
 		add_core_of = ATH

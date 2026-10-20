@@ -1,8 +1,8 @@
 state={
 	id=39
 	name="STATE_39"
-	manpower = 855000
-	state_category = town
+	manpower = 2067000
+	state_category = large_city
 	resources={
 		aluminium=2.000
 	}
@@ -14,8 +14,8 @@ state={
 		victory_points = { 3517 1 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 1
+			industrial_complex = 6
+			arms_factory = 2
 			3527 = { naval_base = 3 }
 		}
 		add_core_of = OCD

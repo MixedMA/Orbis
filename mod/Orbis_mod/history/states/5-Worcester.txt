@@ -1,8 +1,8 @@
 state={
 	id=5
 	name="STATE_5"
-	manpower = 1305000
-	state_category = town
+	manpower = 3879000
+	state_category = large_city
 
 	history={
 		owner = CLB
@@ -11,8 +11,8 @@ state={
 		victory_points = { 3588 5 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 1
+			industrial_complex = 5
+			arms_factory = 2
 			2844 = { naval_base = 3 }
 		}
 		add_core_of = CLB

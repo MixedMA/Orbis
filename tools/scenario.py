@@ -45,3 +45,14 @@ def countries():
 
 def cities_path():
     return ROOT / CITIES
+
+# Economy at the start (user, 2026-10-20): tag -> (civilian factories, military factories, population).
+# write_game_files spreads these over the country's states (capital and cities weigh more);
+# every other country keeps the generic per-state rules.
+ECONOMY = {
+    "SCP": (60, 50, 8_000_000),
+    "ATH": (30, 20, 25_000_000),
+    "CLB": (80, 30, 35_000_000),
+    "OCD": (90, 25, 40_000_000),
+    "CAE": (40, 10, 3_000_000),
+}
