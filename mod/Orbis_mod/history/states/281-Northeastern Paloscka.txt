@@ -1,0 +1,20 @@
+state={
+	id=281
+	name="STATE_281"
+	manpower = 60000
+	state_category = rural
+
+	history={
+		owner = PLG
+		victory_points = { 1449 1 }
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PLG
+	}
+
+	provinces={
+		763 1449 2341 
+	}
+	local_supplies=0.0
+}

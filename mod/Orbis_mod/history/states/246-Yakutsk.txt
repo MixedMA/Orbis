@@ -1,0 +1,24 @@
+state={
+	id=246
+	name="STATE_246"
+	manpower = 405000
+	state_category = town
+
+	history={
+		owner = ATH
+		victory_points = { 1211 5 }
+		victory_points = { 2457 5 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			1211 = { naval_base = 3 }
+		}
+		add_core_of = ATH
+	}
+
+	provinces={
+		300 1211 1443 1856 2044 2229 2266 2332 2457 
+	}
+	local_supplies=0.0
+}

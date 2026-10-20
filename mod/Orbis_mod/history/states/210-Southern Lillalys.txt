@@ -1,0 +1,19 @@
+state={
+	id=210
+	name="STATE_210"
+	manpower = 120000
+	state_category = rural
+
+	history={
+		owner = LLY
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LLY
+	}
+
+	provinces={
+		184 463 675 1475 2206 3272 
+	}
+	local_supplies=0.0
+}

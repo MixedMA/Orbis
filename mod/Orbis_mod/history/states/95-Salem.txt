@@ -1,0 +1,21 @@
+state={
+	id=95
+	name="STATE_95"
+	manpower = 225000
+	state_category = rural
+
+	history={
+		owner = CLB
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = CLB
+	}
+
+	provinces={
+		976 2068 2617 2757 3334 
+	}
+	local_supplies=0.0
+}

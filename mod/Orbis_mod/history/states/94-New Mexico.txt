@@ -1,0 +1,27 @@
+state={
+	id=94
+	name="STATE_94"
+	manpower = 1215000
+	state_category = town
+	resources={
+		rubber=23.000
+		aluminium=2.000
+	}
+
+	history={
+		owner = CLB
+		victory_points = { 2062 5 }
+		victory_points = { 3347 5 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = CLB
+	}
+
+	provinces={
+		168 171 299 344 561 632 726 777 1323 1546 1603 1986 2062 2428 2473 2751 2759 2810 2824 2914 2934 3002 3298 3331 3347 3417 3467 
+	}
+	local_supplies=0.0
+}

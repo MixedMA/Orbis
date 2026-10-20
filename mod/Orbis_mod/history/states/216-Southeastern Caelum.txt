@@ -1,0 +1,22 @@
+state={
+	id=216
+	name="STATE_216"
+	manpower = 200000
+	state_category = rural
+	resources={
+		rubber=5.000
+	}
+
+	history={
+		owner = CAE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = CAE
+	}
+
+	provinces={
+		217 985 1069 1430 1577 2370 2825 2869 3192 3323 
+	}
+	local_supplies=0.0
+}

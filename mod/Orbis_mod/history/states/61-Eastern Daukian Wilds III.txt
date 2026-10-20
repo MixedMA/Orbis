@@ -1,0 +1,22 @@
+state={
+	id=61
+	name="STATE_61"
+	manpower = 30000
+	state_category = pastoral
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = W05
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = W05
+	}
+
+	provinces={
+		621 661 1630 1747 2028 2382 2405 2695 3073 3301 3534 3582 
+	}
+	local_supplies=0.0
+}

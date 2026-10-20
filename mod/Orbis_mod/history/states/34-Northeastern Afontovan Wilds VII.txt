@@ -1,0 +1,24 @@
+state={
+	id=34
+	name="STATE_34"
+	manpower = 30000
+	state_category = pastoral
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = W03
+		victory_points = { 1042 5 }
+		victory_points = { 2356 5 }
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = W03
+	}
+
+	provinces={
+		142 585 601 1042 1132 1278 2161 2356 2752 2889 3075 3524 
+	}
+	local_supplies=0.0
+}

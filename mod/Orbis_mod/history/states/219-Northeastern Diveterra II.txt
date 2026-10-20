@@ -1,0 +1,23 @@
+state={
+	id=219
+	name="STATE_219"
+	manpower = 1440000
+	state_category = town
+
+	history={
+		owner = RHO
+		victory_points = { 974 5 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			974 = { naval_base = 3 }
+		}
+		add_core_of = RHO
+	}
+
+	provinces={
+		458 519 649 699 717 835 911 974 1100 1264 1500 1647 1689 1799 2238 2279 2334 2367 2448 2464 2497 2606 2644 2699 2821 2860 3224 3229 3287 3315 3539 3558 
+	}
+	local_supplies=0.0
+}

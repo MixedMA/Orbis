@@ -1,0 +1,22 @@
+state={
+	id=54
+	name="STATE_54"
+	manpower = 30000
+	state_category = pastoral
+	resources={
+		oil=14.000
+	}
+
+	history={
+		owner = W08
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = W08
+	}
+
+	provinces={
+		325 428 641 658 790 907 1680 1809 2316 2549 2971 3130 
+	}
+	local_supplies=0.0
+}

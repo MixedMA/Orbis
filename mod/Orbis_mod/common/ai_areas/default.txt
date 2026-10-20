@@ -1,0 +1,14 @@
+areas = {
+	wozgoria = {
+		continents = { wozgoria }
+	}
+	daukia = {
+		continents = { daukia }
+	}
+	afontova = {
+		continents = { afontova }
+	}
+	eos = {
+		continents = { eos }
+	}
+}

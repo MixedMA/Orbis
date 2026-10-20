@@ -1,0 +1,19 @@
+state={
+	id=260
+	name="STATE_260"
+	manpower = 100000
+	state_category = rural
+
+	history={
+		owner = KHZ
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KHZ
+	}
+
+	provinces={
+		301 1961 2471 2484 2823 
+	}
+	local_supplies=0.0
+}

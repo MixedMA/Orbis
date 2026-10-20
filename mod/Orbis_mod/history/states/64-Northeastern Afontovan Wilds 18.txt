@@ -1,0 +1,19 @@
+state={
+	id=64
+	name="STATE_64"
+	manpower = 37500
+	state_category = pastoral
+
+	history={
+		owner = W03
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = W03
+	}
+
+	provinces={
+		895 1394 1460 1585 1994 2030 2397 2444 2452 2962 3109 3289 3482 3498 3603 
+	}
+	local_supplies=0.0
+}

@@ -1,0 +1,262 @@
+[
+ {
+  "name": "Jirsi",
+  "country": "Occidentalis",
+  "capital": false,
+  "note": "ehem. Hauptstadt des Rashidun-Kalifats",
+  "x": 966,
+  "y": 633,
+  "fx": 0.310369,
+  "fy": 0.199929
+ },
+ {
+  "name": "Kofinneia",
+  "country": "Occidentalis",
+  "capital": false,
+  "note": "Kofinneia, seit 1951 Teil von Occidentalis",
+  "x": 1039,
+  "y": 781,
+  "fx": 0.334872,
+  "fy": 0.248935
+ },
+ {
+  "name": "Petrograd",
+  "country": "Occidentalis",
+  "capital": false,
+  "note": "Protektorat seit 1956",
+  "x": 606,
+  "y": 2151,
+  "fx": 0.190696,
+  "fy": 0.704545
+ },
+ {
+  "name": "Tomiyuu",
+  "country": "Vallenevado",
+  "capital": true,
+  "note": "Hauptstadt der Highlands of Vallenevado",
+  "x": 1365,
+  "y": 761,
+  "fx": 0.443182,
+  "fy": 0.242188
+ },
+ {
+  "name": "Cosmodrome",
+  "country": "Vallenevado",
+  "capital": false,
+  "note": "",
+  "x": 1322,
+  "y": 540,
+  "fx": 0.428977,
+  "fy": 0.169034
+ },
+ {
+  "name": "Valimar",
+  "country": "Almaren",
+  "capital": true,
+  "note": "Spawn, Hauptstadt von Almaren",
+  "x": 1456,
+  "y": 1442,
+  "fx": 0.473366,
+  "fy": 0.46875
+ },
+ {
+  "name": "Beringia",
+  "country": "Almaren",
+  "capital": false,
+  "note": "Beringia unter Almaren-Besatzung (seit 1946)",
+  "x": 2438,
+  "y": 992,
+  "fx": 0.799716,
+  "fy": 0.319247
+ },
+ {
+  "name": "Voskhod",
+  "country": "Almaren",
+  "capital": false,
+  "note": "beringisches Gebiet, besetzt",
+  "x": 2235,
+  "y": 949,
+  "fx": 0.732244,
+  "fy": 0.304688
+ },
+ {
+  "name": "Tamatarkha",
+  "country": "Khazaria",
+  "capital": true,
+  "note": "alte Bulgarenstadt, 1961 erobert; Hauptstadt (statt Sarkel, nicht kartiert)",
+  "x": 1084,
+  "y": 1385,
+  "fx": 0.349787,
+  "fy": 0.449929
+ },
+ {
+  "name": "Uruk",
+  "country": "Chaldea",
+  "capital": true,
+  "note": "",
+  "x": 1456,
+  "y": 2226,
+  "fx": 0.473366,
+  "fy": 0.729403
+ },
+ {
+  "name": "Lagash",
+  "country": "Chaldea",
+  "capital": false,
+  "note": "",
+  "x": 1564,
+  "y": 2207,
+  "fx": 0.509233,
+  "fy": 0.723011
+ },
+ {
+  "name": "Kish",
+  "country": "Chaldea",
+  "capital": false,
+  "note": "",
+  "x": 1525,
+  "y": 2259,
+  "fx": 0.496449,
+  "fy": 0.740412
+ },
+ {
+  "name": "Chesapeake",
+  "country": "Columbia",
+  "capital": true,
+  "note": "Hauptstadt der Columbian Federation",
+  "x": 1615,
+  "y": 2332,
+  "fx": 0.526278,
+  "fy": 0.76456
+ },
+ {
+  "name": "Plovdiv",
+  "country": "Rhodoa",
+  "capital": true,
+  "note": "Hauptstadt von Rhodoa/Rovoda, gegr. 1996",
+  "x": 2377,
+  "y": 1956,
+  "fx": 0.779474,
+  "fy": 0.63956
+ },
+ {
+  "name": "Kokomo",
+  "country": "Rhodoa",
+  "capital": false,
+  "note": "Indiana (Golden), gegr. 1997",
+  "x": 2120,
+  "y": 1530,
+  "fx": 0.694247,
+  "fy": 0.497869
+ },
+ {
+  "name": "Troy",
+  "country": "Rhodoa",
+  "capital": false,
+  "note": "Gemeinde von Indiana",
+  "x": 1799,
+  "y": 1192,
+  "fx": 0.587358,
+  "fy": 0.385653
+ },
+ {
+  "name": "Paloga",
+  "country": "Rhodoa",
+  "capital": false,
+  "note": "Stadtstaat Paloga (CiaoMoro)",
+  "x": 2106,
+  "y": 1663,
+  "fx": 0.689631,
+  "fy": 0.542259
+ },
+ {
+  "name": "Strasbourg",
+  "country": "Rhodoa",
+  "capital": false,
+  "note": "",
+  "x": 2516,
+  "y": 1726,
+  "fx": 0.825639,
+  "fy": 0.56321
+ },
+ {
+  "name": "Site Anvil",
+  "country": "SCP Foundation",
+  "capital": true,
+  "note": "fliegende Festung, Hauptstadt",
+  "x": 2183,
+  "y": 2425,
+  "fx": 0.715199,
+  "fy": 0.795455
+ },
+ {
+  "name": "Site 60",
+  "country": "SCP Foundation",
+  "capital": false,
+  "note": "",
+  "x": 2372,
+  "y": 2479,
+  "fx": 0.778054,
+  "fy": 0.813565
+ },
+ {
+  "name": "Kaisagrad",
+  "country": "Red Star Brigade",
+  "capital": true,
+  "note": "Hauptstadt der Red Star Brigade",
+  "x": 1639,
+  "y": 943,
+  "fx": 0.534091,
+  "fy": 0.302912
+ },
+ {
+  "name": "Anthropia",
+  "country": "Anthropia",
+  "capital": true,
+  "note": "gegr. 1946",
+  "x": 1933,
+  "y": 678,
+  "fx": 0.632102,
+  "fy": 0.214844
+ },
+ {
+  "name": "Ezellohar",
+  "country": "Valbania",
+  "capital": true,
+  "note": "Hauptstadt von Valbania (vom User bestätigt)",
+  "x": 1287,
+  "y": 1040,
+  "fx": 0.417259,
+  "fy": 0.335227
+ },
+ {
+  "name": "Kuhland",
+  "country": "Occidentalis",
+  "capital": true,
+  "note": "Hauptstadt, Mesa im Südwesten (vom User auf der 1850-Karte gezeigt)",
+  "x": 958,
+  "y": 1971,
+  "fx": 0.307884,
+  "fy": 0.644531
+ },
+ {
+  "name": "Black Mesa",
+  "country": "Columbia",
+  "capital": false,
+  "note": "Black Mesa Research Facility, Bundesgebiet",
+  "x": 924,
+  "y": 1925,
+  "fx": 0.29652,
+  "fy": 0.629261
+ },
+ {
+  "name": "Peten K'uhul",
+  "country": "Peten K'uhul",
+  "capital": true,
+  "note": "Hauptstadt, Mitte des Gebiets",
+  "x": 1084,
+  "y": 2023,
+  "fx": 0.349787,
+  "fy": 0.661932
+ }
+]

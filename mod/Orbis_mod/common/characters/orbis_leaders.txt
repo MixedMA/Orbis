@@ -1,0 +1,177 @@
+characters = {
+	OCD_leader = {
+		name = "Alphastar"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	RHO_leader = {
+		name = "Bean"
+		country_leader = {
+			ideology = conservatism
+			expire = "2999.1.1.1"
+		}
+	}
+	SCP_leader = {
+		name = "Administrator Mixed"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	ALM_leader = {
+		name = "Americana"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	CLB_leader = {
+		name = "Brazilian"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	PLG_leader = {
+		name = "CiaoMoro"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	BRG_leader = {
+		name = "Suden"
+		country_leader = {
+			ideology = marxism
+			expire = "2999.1.1.1"
+		}
+	}
+	VBN_leader = {
+		name = "Valbano"
+		country_leader = {
+			ideology = conservatism
+			expire = "2999.1.1.1"
+		}
+	}
+	CAE_leader = {
+		name = "BrasilBola"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	UBR_leader = {
+		name = "Cathy"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	ATH_leader = {
+		name = "Danieer"
+		country_leader = {
+			ideology = marxism
+			expire = "2999.1.1.1"
+		}
+	}
+	RME_leader = {
+		name = "Daniell"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	KHZ_leader = {
+		name = "Chinook"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	LLY_leader = {
+		name = "Buckeria"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	MDG_leader = {
+		name = "Dougrasus"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	PSH_leader = {
+		name = "BrotherSlimJim"
+		country_leader = {
+			ideology = marxism
+			expire = "2999.1.1.1"
+		}
+	}
+	TRG_leader = {
+		name = "Clan Gathering"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	W01_leader = {
+		name = "No One"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	W02_leader = {
+		name = "No One"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	W03_leader = {
+		name = "No One"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	W04_leader = {
+		name = "No One"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	W05_leader = {
+		name = "No One"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	W06_leader = {
+		name = "No One"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	W07_leader = {
+		name = "No One"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+	W08_leader = {
+		name = "No One"
+		country_leader = {
+			ideology = despotism
+			expire = "2999.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=315
+	name="STATE_315"
+	manpower = 1
+	state_category = wasteland
+	impassable = yes
+	force_link_ownership_to = 20
+
+	history={
+		owner = W04
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = W04
+	}
+
+	provinces={
+		1166 1537 1589 1698 2155 
+	}
+	local_supplies=0.0
+}

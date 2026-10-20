@@ -1,0 +1,24 @@
+state={
+	id=12
+	name="STATE_12"
+	manpower = 30000
+	state_category = pastoral
+	resources={
+		steel=4.000
+		tungsten=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = W07
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = W07
+	}
+
+	provinces={
+		800 997 1006 1642 1789 2084 2524 2702 3223 3232 3453 3591 
+	}
+	local_supplies=0.0
+}

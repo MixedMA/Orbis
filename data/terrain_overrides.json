@@ -1,0 +1,26 @@
+[
+ {
+  "x": 2246,
+  "y": 2412,
+  "terrain_class": 11,
+  "note": "province 1520 in the 2026-10-19 build: mountain"
+ },
+ {
+  "x": 2291,
+  "y": 2282,
+  "terrain_class": 11,
+  "note": "province 1521 in the 2026-10-19 build: mountain"
+ },
+ {
+  "x": 2272,
+  "y": 2314,
+  "terrain_class": 11,
+  "note": "province 1849 in the 2026-10-19 build: mountain"
+ },
+ {
+  "x": 2253,
+  "y": 2370,
+  "terrain_class": 11,
+  "note": "province 2257 in the 2026-10-19 build: mountain"
+ }
+]

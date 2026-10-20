@@ -1,0 +1,20 @@
+state={
+	id=38
+	name="STATE_38"
+	manpower = 22500
+	state_category = pastoral
+
+	history={
+		owner = W07
+		victory_points = { 3340 5 }
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = W07
+	}
+
+	provinces={
+		891 1441 1717 2182 3098 3156 3195 3221 3340 
+	}
+	local_supplies=0.0
+}

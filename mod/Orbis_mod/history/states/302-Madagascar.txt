@@ -1,0 +1,29 @@
+state={
+	id=302
+	name="STATE_302"
+	manpower = 420000
+	state_category = city
+	resources={
+		steel=4.000
+		tungsten=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = MDG
+		victory_points = { 946 10 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 1
+			946 = { naval_base = 1 }
+		}
+		add_core_of = MDG
+	}
+
+	provinces={
+		946 1044 2056 2123 2642 2643 3515 
+	}
+	local_supplies=0.0
+}

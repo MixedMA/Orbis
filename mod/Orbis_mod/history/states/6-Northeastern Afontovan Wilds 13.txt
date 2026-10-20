@@ -1,0 +1,24 @@
+state={
+	id=6
+	name="STATE_6"
+	manpower = 47500
+	state_category = pastoral
+	resources={
+		steel=10.000
+		tungsten=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = W03
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = W03
+	}
+
+	provinces={
+		297 528 825 1072 1286 1473 2066 2330 2474 2506 2541 2928 3104 3238 3259 3269 3278 3307 3581 
+	}
+	local_supplies=0.0
+}

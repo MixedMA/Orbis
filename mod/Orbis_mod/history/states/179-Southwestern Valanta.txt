@@ -1,0 +1,23 @@
+state={
+	id=179
+	name="STATE_179"
+	manpower = 160000
+	state_category = rural
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = VBN
+		victory_points = { 3592 1 }
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = VBN
+	}
+
+	provinces={
+		341 913 1506 1594 2253 2255 3526 3592 
+	}
+	local_supplies=0.0
+}

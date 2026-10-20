@@ -1,0 +1,28 @@
+state={
+	id=171
+	name="STATE_171"
+	manpower = 1890000
+	state_category = rural
+	resources={
+		steel=4.000
+		tungsten=2.000
+		chromium=2.000
+		aluminium=2.000
+	}
+
+	history={
+		owner = SCP
+		victory_points = { 3389 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = SCP
+	}
+
+	provinces={
+		153 492 530 553 609 689 754 789 961 1032 1163 1187 1442 1501 1635 1702 1765 1912 1920 2072 2097 2139 2190 2558 2760 2818 2893 2963 3006 3051 3062 3135 3153 3208 3241 3251 3356 3360 3389 3402 3443 3605 
+	}
+	local_supplies=0.0
+}

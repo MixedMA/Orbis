@@ -1,0 +1,22 @@
+state={
+	id=36
+	name="STATE_36"
+	manpower = 32500
+	state_category = pastoral
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = W05
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = W05
+	}
+
+	provinces={
+		432 1281 1357 1651 1661 1725 1812 2176 2926 2964 3140 3390 3578 
+	}
+	local_supplies=0.0
+}

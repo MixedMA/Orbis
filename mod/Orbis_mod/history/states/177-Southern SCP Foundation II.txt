@@ -1,0 +1,21 @@
+state={
+	id=177
+	name="STATE_177"
+	manpower = 270000
+	state_category = rural
+
+	history={
+		owner = SCP
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = SCP
+	}
+
+	provinces={
+		346 617 1206 1413 2977 3137 
+	}
+	local_supplies=0.0
+}

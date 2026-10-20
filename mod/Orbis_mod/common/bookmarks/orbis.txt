@@ -1,0 +1,89 @@
+bookmarks = {
+	bookmark = {
+		name = "ORBIS_1850_NAME"
+		desc = "ORBIS_1850_DESC"
+		date = 2150.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "OCD"
+		default = yes
+		"OCD" = {
+			history = "OCD_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = { }
+			focuses = { }
+		}
+		"RHO" = {
+			history = "RHO_BOOKMARK_DESC"
+			ideology = democratic
+			ideas = { }
+			focuses = { }
+		}
+		"SCP" = {
+			history = "SCP_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = { }
+			focuses = { }
+		}
+		"CLB" = {
+			history = "CLB_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = { }
+			focuses = { }
+		}
+		"ATH" = {
+			history = "ATH_BOOKMARK_DESC"
+			ideology = communism
+			ideas = { }
+			focuses = { }
+		}
+		"---" = {
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		effect = {
+			randomize_weather = 22345
+		}
+	}
+	bookmark = {
+		name = "ORBIS_1848_NAME"
+		desc = "ORBIS_1848_DESC"
+		date = 2152.12.23.12
+		picture = "GFX_select_date_1939"
+		default_country = "OCD"
+		"OCD" = {
+			history = "OCD_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = { }
+			focuses = { }
+		}
+		"RHO" = {
+			history = "RHO_BOOKMARK_DESC"
+			ideology = democratic
+			ideas = { }
+			focuses = { }
+		}
+		"SCP" = {
+			history = "SCP_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = { }
+			focuses = { }
+		}
+		"CLB" = {
+			history = "CLB_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = { }
+			focuses = { }
+		}
+		"ATH" = {
+			history = "ATH_BOOKMARK_DESC"
+			ideology = communism
+			ideas = { }
+			focuses = { }
+		}
+		"---" = {
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		effect = {
+			randomize_weather = 22345
+		}
+	}
+}

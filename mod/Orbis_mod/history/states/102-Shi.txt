@@ -1,0 +1,24 @@
+state={
+	id=102
+	name="STATE_102"
+	manpower = 270000
+	state_category = rural
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = CLB
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = CLB
+	}
+
+	provinces={
+		912 1378 2141 3049 3261 3424 
+	}
+	local_supplies=0.0
+}

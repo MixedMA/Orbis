@@ -1,0 +1,25 @@
+state={
+	id=93
+	name="STATE_93"
+	manpower = 1305000
+	state_category = town
+
+	history={
+		owner = CLB
+		victory_points = { 2748 5 }
+		victory_points = { 2844 5 }
+		victory_points = { 3588 5 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			2844 = { naval_base = 3 }
+		}
+		add_core_of = CLB
+	}
+
+	provinces={
+		269 321 625 765 778 884 926 1172 1312 1493 1517 1713 1852 2048 2297 2431 2618 2639 2748 2793 2844 3214 3284 3336 3403 3442 3492 3544 3588 
+	}
+	local_supplies=0.0
+}

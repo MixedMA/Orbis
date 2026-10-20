@@ -1,0 +1,22 @@
+state={
+	id=47
+	name="STATE_47"
+	manpower = 32500
+	state_category = pastoral
+	resources={
+		oil=7.000
+	}
+
+	history={
+		owner = W08
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = W08
+	}
+
+	provinces={
+		1213 1218 1545 1711 1857 2240 2274 3032 3266 3288 3408 3466 3565 
+	}
+	local_supplies=0.0
+}

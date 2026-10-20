@@ -1,0 +1,21 @@
+state={
+	id=214
+	name="STATE_214"
+	manpower = 120000
+	state_category = town
+
+	history={
+		owner = CAE
+		victory_points = { 452 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = CAE
+	}
+
+	provinces={
+		304 415 452 899 987 2219 
+	}
+	local_supplies=0.0
+}

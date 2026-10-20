@@ -1,0 +1,1082 @@
+[
+ {
+  "name": "Forodwaith",
+  "country": null,
+  "capital": false,
+  "fx": 0.375107,
+  "fy": 0.019348,
+  "x": 1160,
+  "y": 90
+ },
+ {
+  "name": "Atlantis",
+  "country": null,
+  "capital": false,
+  "fx": 0.653091755319149,
+  "fy": 0.0503656914893617,
+  "x": 1997,
+  "y": 184
+ },
+ {
+  "name": "Yergen",
+  "country": null,
+  "capital": false,
+  "fx": 0.33871,
+  "fy": 0.064435,
+  "x": 1051,
+  "y": 226
+ },
+ {
+  "name": "Vyra",
+  "country": null,
+  "capital": false,
+  "fx": 0.566018,
+  "fy": 0.063905,
+  "x": 1735,
+  "y": 224
+ },
+ {
+  "name": "Dun Tyene",
+  "country": null,
+  "capital": false,
+  "fx": 0.9592752659574468,
+  "fy": 0.09192154255319149,
+  "x": 2918,
+  "y": 308
+ },
+ {
+  "name": "Dawei",
+  "country": null,
+  "capital": false,
+  "fx": 0.824525,
+  "fy": 0.139145,
+  "x": 2512,
+  "y": 451
+ },
+ {
+  "name": "Zverski",
+  "country": null,
+  "capital": false,
+  "fx": 0.9855385638297872,
+  "fy": 0.14876994680851063,
+  "x": 2996,
+  "y": 480
+ },
+ {
+  "name": "Alzir",
+  "country": "New Rome",
+  "capital": false,
+  "fx": 0.290639,
+  "fy": 0.181718,
+  "x": 906,
+  "y": 579
+ },
+ {
+  "name": "Izmir",
+  "country": "Ultimaborea",
+  "capital": false,
+  "fx": 0.33933,
+  "fy": 0.163816,
+  "x": 1053,
+  "y": 525
+ },
+ {
+  "name": "Cosmodrome",
+  "country": "Ultimaborea",
+  "capital": false,
+  "fx": 0.426065,
+  "fy": 0.168527,
+  "x": 1314,
+  "y": 539
+ },
+ {
+  "name": "Sansretour",
+  "country": null,
+  "capital": false,
+  "fx": 0.919779,
+  "fy": 0.175549,
+  "x": 2799,
+  "y": 560
+ },
+ {
+  "name": "Jirsi",
+  "country": "Occidentalis",
+  "capital": false,
+  "fx": 0.308952,
+  "fy": 0.200064,
+  "x": 961,
+  "y": 634
+ },
+ {
+  "name": "Tuonela",
+  "country": "Ultimaborea",
+  "capital": false,
+  "fx": 0.52446,
+  "fy": 0.198436,
+  "x": 1610,
+  "y": 629
+ },
+ {
+  "name": "Assalka",
+  "country": "Ultimaborea",
+  "capital": false,
+  "fx": 0.384717,
+  "fy": 0.214961,
+  "x": 1189,
+  "y": 679
+ },
+ {
+  "name": "Drumm",
+  "country": "Anthropia",
+  "capital": false,
+  "fx": 0.576092,
+  "fy": 0.215109,
+  "x": 1765,
+  "y": 679
+ },
+ {
+  "name": "Anthropia",
+  "country": "Anthropia",
+  "capital": true,
+  "fx": 0.631748,
+  "fy": 0.214637,
+  "x": 1932,
+  "y": 678
+ },
+ {
+  "name": "Baltimore",
+  "country": "Anthropia",
+  "capital": false,
+  "fx": 0.738556,
+  "fy": 0.213686,
+  "x": 2254,
+  "y": 675
+ },
+ {
+  "name": "Alanta",
+  "country": "Valanta",
+  "capital": false,
+  "fx": 0.801259,
+  "fy": 0.226582,
+  "x": 2442,
+  "y": 714
+ },
+ {
+  "name": "Ard Velen",
+  "country": null,
+  "capital": false,
+  "fx": 0.911308,
+  "fy": 0.225003,
+  "x": 2773,
+  "y": 709
+ },
+ {
+  "name": "Kofinneia",
+  "country": "Occidentalis",
+  "capital": false,
+  "fx": 0.333171,
+  "fy": 0.248656,
+  "x": 1034,
+  "y": 780
+ },
+ {
+  "name": "Tomiyuu",
+  "country": "Ultimaborea",
+  "capital": false,
+  "fx": 0.442581,
+  "fy": 0.241751,
+  "x": 1363,
+  "y": 759
+ },
+ {
+  "name": "Anchorage",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.5613364361702128,
+  "fy": 0.2554853723404255,
+  "x": 1720,
+  "y": 800
+ },
+ {
+  "name": "Yakutsk",
+  "country": "Anthropia",
+  "capital": false,
+  "fx": 0.593726,
+  "fy": 0.257374,
+  "x": 1818,
+  "y": 806
+ },
+ {
+  "name": "Elbaf",
+  "country": "Anthropia",
+  "capital": false,
+  "fx": 0.726697,
+  "fy": 0.283174,
+  "x": 2218,
+  "y": 884
+ },
+ {
+  "name": "Blumenau",
+  "country": null,
+  "capital": false,
+  "fx": 0.90402,
+  "fy": 0.28177,
+  "x": 2751,
+  "y": 880
+ },
+ {
+  "name": "Kaisagrad",
+  "country": "Ultimaborea",
+  "capital": false,
+  "fx": 0.534638,
+  "fy": 0.304599,
+  "x": 1640,
+  "y": 948
+ },
+ {
+  "name": "Uelen",
+  "country": "Beringia",
+  "capital": false,
+  "fx": 0.731868,
+  "fy": 0.305115,
+  "x": 2233,
+  "y": 950
+ },
+ {
+  "name": "Anadyr",
+  "country": "Beringia",
+  "capital": false,
+  "fx": 0.823285,
+  "fy": 0.309742,
+  "x": 2508,
+  "y": 964
+ },
+ {
+  "name": "Carroll-Town",
+  "country": "Lillalys",
+  "capital": false,
+  "fx": 0.17698,
+  "fy": 0.337191,
+  "x": 564,
+  "y": 1046
+ },
+ {
+  "name": "Orbokraj",
+  "country": "Occidentalis",
+  "capital": false,
+  "fx": 0.316212,
+  "fy": 0.337815,
+  "x": 983,
+  "y": 1048
+ },
+ {
+  "name": "Gvareny",
+  "country": "Anthropia",
+  "capital": false,
+  "fx": 0.686255,
+  "fy": 0.332589,
+  "x": 2096,
+  "y": 1032
+ },
+ {
+  "name": "Neu Katzland",
+  "country": "Occidentalis",
+  "capital": false,
+  "fx": 0.25382313829787234,
+  "fy": 0.3645279255319149,
+  "x": 796,
+  "y": 1128
+ },
+ {
+  "name": "Omolon",
+  "country": "Beringia",
+  "capital": false,
+  "fx": 0.765543,
+  "fy": 0.353719,
+  "x": 2335,
+  "y": 1096
+ },
+ {
+  "name": "Anadune",
+  "country": "Lillalys",
+  "capital": false,
+  "fx": 0.18068484042553193,
+  "fy": 0.3828125,
+  "x": 576,
+  "y": 1184
+ },
+ {
+  "name": "Troy",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.587462,
+  "fy": 0.385992,
+  "x": 1799,
+  "y": 1193
+ },
+ {
+  "name": "Guam",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.668716755319149,
+  "fy": 0.41240026595744683,
+  "x": 2044,
+  "y": 1272
+ },
+ {
+  "name": "Tari'ara Ur'atar",
+  "country": "Khazaria",
+  "capital": false,
+  "fx": 0.347312,
+  "fy": 0.407989,
+  "x": 1077,
+  "y": 1259
+ },
+ {
+  "name": "Vostaniye",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.687658,
+  "fy": 0.415633,
+  "x": 2100,
+  "y": 1282
+ },
+ {
+  "name": "Mito",
+  "country": "Occidentalis",
+  "capital": false,
+  "fx": 0.210585,
+  "fy": 0.450333,
+  "x": 665,
+  "y": 1387
+ },
+ {
+  "name": "Tijuana",
+  "country": "Occidentalis",
+  "capital": false,
+  "fx": 0.252734,
+  "fy": 0.450837,
+  "x": 792,
+  "y": 1388
+ },
+ {
+  "name": "Tamatarkha",
+  "country": "Khazaria",
+  "capital": true,
+  "fx": 0.349455,
+  "fy": 0.449513,
+  "x": 1083,
+  "y": 1384
+ },
+ {
+  "name": "Freiburg",
+  "country": "Occidentalis",
+  "capital": false,
+  "fx": 0.231886,
+  "fy": 0.477619,
+  "x": 730,
+  "y": 1469
+ },
+ {
+  "name": "Valimar",
+  "country": "Almaren",
+  "capital": true,
+  "fx": 0.472688,
+  "fy": 0.468802,
+  "x": 1454,
+  "y": 1442
+ },
+ {
+  "name": "York",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.604174,
+  "fy": 0.469146,
+  "x": 1849,
+  "y": 1443
+ },
+ {
+  "name": "Gary",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.651007,
+  "fy": 0.470377,
+  "x": 1990,
+  "y": 1447
+ },
+ {
+  "name": "Baccah",
+  "country": "Diveterra",
+  "capital": true,
+  "fx": 0.929208,
+  "fy": 0.475507,
+  "x": 2827,
+  "y": 1462
+ },
+ {
+  "name": "Aurtiarnon",
+  "country": null,
+  "capital": false,
+  "fx": 0.971524,
+  "fy": 0.469061,
+  "x": 2954,
+  "y": 1443
+ },
+ {
+  "name": "Port-au-Prince",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.582801,
+  "fy": 0.504683,
+  "x": 1785,
+  "y": 1550
+ },
+ {
+  "name": "Kokomo",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.694463,
+  "fy": 0.498052,
+  "x": 2121,
+  "y": 1530
+ },
+ {
+  "name": "Limatigrad",
+  "country": "Diveterra",
+  "capital": false,
+  "fx": 0.733102,
+  "fy": 0.500537,
+  "x": 2237,
+  "y": 1538
+ },
+ {
+  "name": "Targoviste",
+  "country": "Beringia",
+  "capital": false,
+  "fx": 0.800522,
+  "fy": 0.533116,
+  "x": 2440,
+  "y": 1636
+ },
+ {
+  "name": "Folsna",
+  "country": "Paloscka",
+  "capital": false,
+  "fx": 0.631597,
+  "fy": 0.548341,
+  "x": 1932,
+  "y": 1681
+ },
+ {
+  "name": "Paloga",
+  "country": "Paloscka",
+  "capital": false,
+  "fx": 0.690216,
+  "fy": 0.542637,
+  "x": 2108,
+  "y": 1664
+ },
+ {
+  "name": "Strasbourg",
+  "country": "Diveterra",
+  "capital": false,
+  "fx": 0.825881,
+  "fy": 0.564018,
+  "x": 2516,
+  "y": 1729
+ },
+ {
+  "name": "Humaita",
+  "country": "Diveterra",
+  "capital": false,
+  "fx": 0.852523,
+  "fy": 0.554754,
+  "x": 2596,
+  "y": 1701
+ },
+ {
+  "name": "Nova Sempiscatus",
+  "country": "Occidentalis",
+  "capital": false,
+  "fx": 0.186047,
+  "fy": 0.583532,
+  "x": 592,
+  "y": 1787
+ },
+ {
+  "name": "Tucson",
+  "country": "Occidentalis",
+  "capital": false,
+  "fx": 0.215133,
+  "fy": 0.581943,
+  "x": 679,
+  "y": 1782
+ },
+ {
+  "name": "St. Benisburg",
+  "country": "Paloscka",
+  "capital": false,
+  "fx": 0.63136,
+  "fy": 0.567296,
+  "x": 1931,
+  "y": 1738
+ },
+ {
+  "name": "Flint",
+  "country": "Paloscka",
+  "capital": false,
+  "fx": 0.658412,
+  "fy": 0.587549,
+  "x": 2013,
+  "y": 1799
+ },
+ {
+  "name": "Sauble",
+  "country": "Diveterra",
+  "capital": false,
+  "fx": 0.713795,
+  "fy": 0.585632,
+  "x": 2179,
+  "y": 1794
+ },
+ {
+  "name": "Navajo",
+  "country": "Occidentalis",
+  "capital": false,
+  "fx": 0.302971,
+  "fy": 0.600286,
+  "x": 943,
+  "y": 1838
+ },
+ {
+  "name": "Kuhland",
+  "country": "Occidentalis",
+  "capital": true,
+  "fx": 0.316655585106383,
+  "fy": 0.637466755319149,
+  "x": 984,
+  "y": 1950
+ },
+ {
+  "name": "Flagstaff",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.627319,
+  "fy": 0.627136,
+  "x": 1919,
+  "y": 1918
+ },
+ {
+  "name": "Plovdiv",
+  "country": "Diveterra",
+  "capital": true,
+  "fx": 0.779901,
+  "fy": 0.640324,
+  "x": 2378,
+  "y": 1958
+ },
+ {
+  "name": "Chrysanthemum",
+  "country": "Diveterra",
+  "capital": false,
+  "fx": 0.801085,
+  "fy": 0.651813,
+  "x": 2442,
+  "y": 1993
+ },
+ {
+  "name": "Portland",
+  "country": "Pesh",
+  "capital": false,
+  "fx": 0.233339,
+  "fy": 0.696059,
+  "x": 734,
+  "y": 2126
+ },
+ {
+  "name": "Peten K'uhul",
+  "country": "Occidentalis",
+  "capital": false,
+  "fx": 0.353193,
+  "fy": 0.687633,
+  "x": 1094,
+  "y": 2100
+ },
+ {
+  "name": "Salem",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.565995,
+  "fy": 0.683384,
+  "x": 1735,
+  "y": 2088
+ },
+ {
+  "name": "Petrograd",
+  "country": "Pesh",
+  "capital": false,
+  "fx": 0.189856,
+  "fy": 0.704851,
+  "x": 603,
+  "y": 2152
+ },
+ {
+  "name": "Lagash",
+  "country": "Columbia",
+  "capital": true,
+  "fx": 0.509057,
+  "fy": 0.723752,
+  "x": 1563,
+  "y": 2209
+ },
+ {
+  "name": "Sivas",
+  "country": "SCP Foundation",
+  "capital": false,
+  "fx": 0.654858,
+  "fy": 0.721496,
+  "x": 2002,
+  "y": 2202
+ },
+ {
+  "name": "Sarajevo",
+  "country": "Diveterra",
+  "capital": false,
+  "fx": 0.82271,
+  "fy": 0.711324,
+  "x": 2507,
+  "y": 2172
+ },
+ {
+  "name": "Plymouth",
+  "country": "Pesh",
+  "capital": false,
+  "fx": 0.169556,
+  "fy": 0.736147,
+  "x": 542,
+  "y": 2246
+ },
+ {
+  "name": "Tuguegarao",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.3080119680851064,
+  "fy": 0.7521609042553191,
+  "x": 958,
+  "y": 2294
+ },
+ {
+  "name": "Uruk",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.473045,
+  "fy": 0.730386,
+  "x": 1455,
+  "y": 2229
+ },
+ {
+  "name": "Jubileum",
+  "country": "Caelum",
+  "capital": false,
+  "fx": 0.552384,
+  "fy": 0.72886,
+  "x": 1694,
+  "y": 2224
+ },
+ {
+  "name": "Villa",
+  "country": "Caelum",
+  "capital": true,
+  "fx": 0.586797,
+  "fy": 0.735131,
+  "x": 1797,
+  "y": 2243
+ },
+ {
+  "name": "Site-13",
+  "country": "SCP Foundation",
+  "capital": false,
+  "fx": 0.706603,
+  "fy": 0.751257,
+  "x": 2157,
+  "y": 2292
+ },
+ {
+  "name": "Fort Pesh",
+  "country": "Pesh",
+  "capital": false,
+  "fx": 0.246334,
+  "fy": 0.764224,
+  "x": 773,
+  "y": 2331
+ },
+ {
+  "name": "Shroomtown",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.361539,
+  "fy": 0.775921,
+  "x": 1120,
+  "y": 2366
+ },
+ {
+  "name": "Jacksonville",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.451307,
+  "fy": 0.763576,
+  "x": 1390,
+  "y": 2329
+ },
+ {
+  "name": "Chesapeake",
+  "country": "Columbia",
+  "capital": true,
+  "fx": 0.526779,
+  "fy": 0.765205,
+  "x": 1617,
+  "y": 2334
+ },
+ {
+  "name": "Istanbul",
+  "country": "SCP Foundation",
+  "capital": false,
+  "fx": 0.746248,
+  "fy": 0.762318,
+  "x": 2277,
+  "y": 2325
+ },
+ {
+  "name": "Phoenix",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.291877,
+  "fy": 0.800928,
+  "x": 910,
+  "y": 2441
+ },
+ {
+  "name": "Dinocity",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.435353,
+  "fy": 0.808598,
+  "x": 1342,
+  "y": 2464
+ },
+ {
+  "name": "Site Anvil",
+  "country": "SCP Foundation",
+  "capital": true,
+  "fx": 0.717657,
+  "fy": 0.790535,
+  "x": 2191,
+  "y": 2410
+ },
+ {
+  "name": "Providence",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.2734375,
+  "fy": 0.809341755319149,
+  "x": 854,
+  "y": 2466
+ },
+ {
+  "name": "Albuquerque",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.384124,
+  "fy": 0.816658,
+  "x": 1187,
+  "y": 2489
+ },
+ {
+  "name": "Lynchburg",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.556304,
+  "fy": 0.80947,
+  "x": 1705,
+  "y": 2467
+ },
+ {
+  "name": "Site-19",
+  "country": "SCP Foundation",
+  "capital": true,
+  "fx": 0.872627,
+  "fy": 0.830624,
+  "x": 2657,
+  "y": 2531
+ },
+ {
+  "name": "Sondlitz",
+  "country": null,
+  "capital": false,
+  "fx": 0.964678,
+  "fy": 0.890132,
+  "x": 2934,
+  "y": 2710
+ },
+ {
+  "name": "Arcadia",
+  "country": "SCP Foundation",
+  "capital": true,
+  "fx": 0.622053,
+  "fy": 0.91841,
+  "x": 1903,
+  "y": 2795
+ },
+ {
+  "name": "Elysium",
+  "country": "SCP Foundation",
+  "capital": false,
+  "fx": 0.786058,
+  "fy": 0.923127,
+  "x": 2396,
+  "y": 2809
+ },
+ {
+  "name": "Beograd",
+  "country": null,
+  "capital": true,
+  "fx": 0.536062,
+  "fy": 0.979863,
+  "x": 1644,
+  "y": 2979
+ },
+ {
+  "name": "Jerusalem",
+  "country": "Columbia",
+  "capital": true,
+  "fx": 0.20053,
+  "fy": 0.890627,
+  "x": 635,
+  "y": 2711
+ },
+ {
+  "name": "Samartha",
+  "country": "Ultimaborea",
+  "capital": true,
+  "fx": 0.499292,
+  "fy": 0.226658,
+  "x": 1534,
+  "y": 714
+ },
+ {
+  "name": "Nazareth",
+  "country": "Lillalys",
+  "capital": true,
+  "fx": 0.183316,
+  "fy": 0.302989,
+  "x": 583,
+  "y": 943
+ },
+ {
+  "name": "Beringskygrad",
+  "country": "Beringia",
+  "capital": true,
+  "fx": 0.8003656914893617,
+  "fy": 0.31865026595744683,
+  "x": 2440,
+  "y": 991
+ },
+ {
+  "name": "Worcester",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.583611,
+  "fy": 0.557127,
+  "x": 1788,
+  "y": 1708
+ },
+ {
+  "name": "Riverwood",
+  "country": "Anthropia",
+  "capital": false,
+  "fx": 0.679482,
+  "fy": 0.269305,
+  "x": 2076,
+  "y": 842
+ },
+ {
+  "name": "Site-60",
+  "country": "SCP Foundation",
+  "capital": false,
+  "fx": 0.778578,
+  "fy": 0.814621,
+  "x": 2374,
+  "y": 2482
+ },
+ {
+  "name": "Ezellohar",
+  "country": "Valanta",
+  "capital": false,
+  "fx": 0.416623,
+  "fy": 0.334871,
+  "x": 1285,
+  "y": 1039
+ },
+ {
+  "name": "Cressenatoru",
+  "country": null,
+  "capital": false,
+  "fx": 0.873334,
+  "fy": 0.928471,
+  "x": 2659,
+  "y": 2825
+ },
+ {
+  "name": "Lakeside",
+  "country": "Occidentalis",
+  "capital": false,
+  "fx": 0.27476728723404253,
+  "fy": 0.21991356382978725,
+  "x": 858,
+  "y": 694
+ },
+ {
+  "name": "Reno",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.3572140957446808,
+  "fy": 0.8020279255319149,
+  "x": 1106,
+  "y": 2444
+ },
+ {
+  "name": "Detroit",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.512895,
+  "fy": 0.808875,
+  "x": 1575,
+  "y": 2465
+ },
+ {
+  "name": "Mosca",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.52644,
+  "fy": 0.830555,
+  "x": 1616,
+  "y": 2530
+ },
+ {
+  "name": "Byzantium",
+  "country": "New Rome",
+  "capital": false,
+  "fx": 0.239782,
+  "fy": 0.144195,
+  "x": 753,
+  "y": 466
+ },
+ {
+  "name": "Dauper",
+  "country": null,
+  "capital": false,
+  "fx": 0.900226,
+  "fy": 0.327349,
+  "x": 2740,
+  "y": 1017
+ },
+ {
+  "name": "El Paso",
+  "country": "Occidentalis",
+  "capital": false,
+  "fx": 0.190871,
+  "fy": 0.507897,
+  "x": 606,
+  "y": 1560
+ },
+ {
+  "name": "Azuria",
+  "country": "Occidentalis",
+  "capital": false,
+  "fx": 0.356705,
+  "fy": 0.581668,
+  "x": 1105,
+  "y": 1782
+ },
+ {
+  "name": "Columbia",
+  "country": "Occidentalis",
+  "capital": false,
+  "fx": 0.295643,
+  "fy": 0.686298,
+  "x": 921,
+  "y": 2096
+ },
+ {
+  "name": "Boston",
+  "country": "Columbia",
+  "capital": false,
+  "fx": 0.4822,
+  "fy": 0.765059,
+  "x": 1482,
+  "y": 2333
+ },
+ {
+  "name": "Tokat",
+  "country": "SCP Foundation",
+  "capital": false,
+  "fx": 0.659222,
+  "fy": 0.798225,
+  "x": 2015,
+  "y": 2433
+ },
+ {
+  "name": "Valbania",
+  "country": "Valanta",
+  "capital": true,
+  "fx": 0.439763,
+  "fy": 0.358676,
+  "x": 1355,
+  "y": 1111
+ },
+ {
+  "name": "Prakta",
+  "country": "Paloscka",
+  "capital": true,
+  "fx": 0.647823,
+  "fy": 0.587318,
+  "x": 1981,
+  "y": 1799
+ },
+ {
+  "name": "Rome",
+  "country": "New Rome",
+  "capital": true,
+  "fx": 0.230362,
+  "fy": 0.179497,
+  "x": 725,
+  "y": 572
+ },
+ {
+  "name": "Madagascar",
+  "country": "Madagascar",
+  "capital": true,
+  "fx": 0.221637,
+  "fy": 0.593711,
+  "x": 699,
+  "y": 1818
+ },
+ {
+  "name": "Peshograd",
+  "country": "Pesh",
+  "capital": true,
+  "fx": 0.253181,
+  "fy": 0.743784,
+  "x": 794,
+  "y": 2269
+ },
+ {
+  "name": "Tuareg",
+  "country": "Tuareg",
+  "capital": true,
+  "fx": 0.638762,
+  "fy": 0.694657,
+  "x": 1953,
+  "y": 2122
+ }
+]

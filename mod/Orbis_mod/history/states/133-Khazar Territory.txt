@@ -1,0 +1,28 @@
+state={
+	id=133
+	name="STATE_133"
+	manpower = 495000
+	state_category = town
+	resources={
+		steel=4.000
+		tungsten=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = OCD
+		victory_points = { 3085 5 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			3085 = { naval_base = 3 }
+		}
+		add_core_of = OCD
+	}
+
+	provinces={
+		872 1398 1411 1514 1976 2117 2248 2571 2808 3085 3451 
+	}
+	local_supplies=0.0
+}

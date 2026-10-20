@@ -1,0 +1,26 @@
+state={
+	id=151
+	name="STATE_151"
+	manpower = 450000
+	state_category = rural
+	resources={
+		steel=4.000
+		tungsten=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = OCD
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = OCD
+	}
+
+	provinces={
+		450 613 1422 1499 2026 2412 2660 2763 2933 3129 
+	}
+	local_supplies=0.0
+}

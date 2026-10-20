@@ -1,0 +1,134 @@
+{
+ "_note": "Border drawings from the user's in-game screenshots (2026-10-18), see tools/make_owner_edits.py",
+ "screens": {
+  "owners_south": {
+   "scale": 1.725,
+   "tx": 305.2,
+   "ty": 992.0
+  },
+  "owners_north": {
+   "scale": 1.72,
+   "tx": -319.8,
+   "ty": 123.8
+  }
+ },
+ "close_k": 41,
+ "seal": [
+  [
+   1250,
+   1924
+  ],
+  [
+   2840,
+   1290
+  ],
+  [
+   2220,
+   1550
+  ],
+  [
+   1120,
+   1130
+  ],
+  [
+   990,
+   1550
+  ],
+  [
+   2057,
+   1743
+  ],
+  [
+   640,
+   1010
+  ]
+ ],
+ "close": [],
+ "regions": [
+  {
+   "tag": "SCP",
+   "seed": [
+    2300,
+    2640
+   ],
+   "take": [
+    "WLD",
+    "RHO",
+    "SCP",
+    "CLB",
+    "PLG"
+   ]
+  },
+  {
+   "tag": "RHO",
+   "seed": [
+    2600,
+    1900
+   ],
+   "take": [
+    "WLD",
+    "SCP",
+    "PLG",
+    "RHO"
+   ]
+  },
+  {
+   "tag": "CLB",
+   "seed": [
+    660,
+    2780
+   ],
+   "take": [
+    "WLD",
+    "OCD",
+    "CLB"
+   ]
+  },
+  {
+   "tag": "KHZ",
+   "seed": [
+    1004,
+    1403
+   ],
+   "take": [
+    "WLD",
+    "OCD",
+    "KHZ"
+   ]
+  },
+  {
+   "tag": "RME",
+   "seed": [
+    748,
+    579
+   ],
+   "take": [
+    "WLD",
+    "OCD",
+    "RME"
+   ]
+  },
+  {
+   "tag": "UBR",
+   "seed": [
+    1400,
+    600
+   ],
+   "take": [
+    "WLD",
+    "OCD",
+    "UBR"
+   ]
+  },
+  {
+   "tag": "OCD",
+   "seed": [
+    300,
+    1400
+   ],
+   "take": [
+    "WLD"
+   ]
+  }
+ ]
+}

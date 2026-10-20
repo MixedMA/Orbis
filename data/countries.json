@@ -1,0 +1,394 @@
+[
+ {
+  "index": 1,
+  "tag": "OCD",
+  "name": "Occidentalis",
+  "long": "United States of Occidentalis",
+  "adj": "Occidentalian",
+  "color": [
+   40,
+   80,
+   130
+  ],
+  "map_color": [
+   45,
+   80,
+   118
+  ],
+  "culture": "western_european",
+  "ideology": "neutrality",
+  "leader": "Alphastar",
+  "capital_city": "Kuhland",
+  "playable": true
+ },
+ {
+  "index": 2,
+  "tag": "RHO",
+  "name": "Diveterra",
+  "long": "Diveterra",
+  "adj": "Diveterran",
+  "color": [
+   110,
+   110,
+   110
+  ],
+  "map_color": [
+   61,
+   61,
+   61
+  ],
+  "culture": "eastern_european",
+  "ideology": "democratic",
+  "leader": "Bean",
+  "capital_city": "Plovdiv",
+  "playable": true,
+  "overlord": "SCP"
+ },
+ {
+  "index": 3,
+  "tag": "SCP",
+  "name": "SCP Foundation",
+  "long": "Global Secure Containment Procedures Foundation",
+  "adj": "Foundation",
+  "color": [
+   55,
+   55,
+   60
+  ],
+  "map_color": [
+   38,
+   38,
+   38
+  ],
+  "culture": "western_european",
+  "ideology": "neutrality",
+  "leader": "Administrator Mixed",
+  "capital_city": "Site Anvil",
+  "playable": true
+ },
+ {
+  "index": 4,
+  "tag": "ALM",
+  "name": "Almaren",
+  "long": "Stellar Civilization of Almaren",
+  "adj": "Almaren",
+  "color": [
+   20,
+   60,
+   170
+  ],
+  "map_color": [
+   0,
+   58,
+   160
+  ],
+  "culture": "western_european",
+  "ideology": "neutrality",
+  "leader": "Americana",
+  "capital_city": "Valimar",
+  "playable": false
+ },
+ {
+  "index": 5,
+  "tag": "CLB",
+  "name": "Columbia",
+  "long": "Columbian Federation",
+  "adj": "Columbian",
+  "color": [
+   90,
+   150,
+   145
+  ],
+  "map_color": [
+   80,
+   134,
+   134
+  ],
+  "culture": "western_european",
+  "ideology": "neutrality",
+  "leader": "Brazilian",
+  "capital_city": "Chesapeake",
+  "playable": true
+ },
+ {
+  "index": 6,
+  "tag": "PLG",
+  "name": "Paloscka",
+  "long": "Paloscka Confederation",
+  "adj": "Palosckan",
+  "color": [
+   160,
+   75,
+   60
+  ],
+  "map_color": [
+   149,
+   67,
+   54
+  ],
+  "culture": "eastern_european",
+  "ideology": "neutrality",
+  "leader": "CiaoMoro",
+  "capital_city": "Prakta",
+  "playable": false
+ },
+ {
+  "index": 7,
+  "tag": "BRG",
+  "name": "Beringia",
+  "long": "Workers' Forgotten Taiga of Beringia",
+  "adj": "Beringian",
+  "color": [
+   20,
+   110,
+   200
+  ],
+  "map_color": [
+   0,
+   101,
+   189
+  ],
+  "culture": "eastern_european",
+  "ideology": "communism",
+  "leader": "Suden",
+  "capital_city": "Beringskygrad",
+  "playable": false
+ },
+ {
+  "index": 8,
+  "tag": "VBN",
+  "name": "Valanta",
+  "long": "Confederation of Valanta",
+  "adj": "Valantan",
+  "color": [
+   240,
+   130,
+   240
+  ],
+  "map_color": [
+   255,
+   128,
+   255
+  ],
+  "culture": "western_european",
+  "ideology": "democratic",
+  "leader": "Valbano",
+  "capital_city": "Valbania",
+  "playable": false
+ },
+ {
+  "index": 9,
+  "tag": "CAE",
+  "name": "Caelum",
+  "long": "Kingdom of Caelum",
+  "adj": "Caelumni",
+  "color": [
+   20,
+   120,
+   70
+  ],
+  "map_color": [
+   0,
+   109,
+   58
+  ],
+  "culture": "western_european",
+  "ideology": "neutrality",
+  "leader": "BrasilBola",
+  "capital_city": "Villa",
+  "playable": false
+ },
+ {
+  "index": 10,
+  "tag": "UBR",
+  "name": "Ultimaborea",
+  "long": "Confederation of Ultimaborea",
+  "adj": "Ultimaborean",
+  "color": [
+   60,
+   210,
+   165
+  ],
+  "map_color": [
+   49,
+   222,
+   172
+  ],
+  "culture": "asian",
+  "ideology": "neutrality",
+  "leader": "Cathy",
+  "capital_city": "Samartha",
+  "playable": false
+ },
+ {
+  "index": 11,
+  "tag": "ATH",
+  "name": "Anthropia",
+  "long": "Lebronist People's Republic of Anthropia",
+  "adj": "Anthropian",
+  "color": [
+   130,
+   10,
+   10
+  ],
+  "map_color": [
+   121,
+   0,
+   0
+  ],
+  "culture": "eastern_european",
+  "ideology": "communism",
+  "leader": "Danieer",
+  "capital_city": "Anthropia",
+  "playable": true
+ },
+ {
+  "index": 12,
+  "tag": "RME",
+  "name": "New Rome",
+  "long": "New Rome",
+  "adj": "Roman",
+  "color": [
+   200,
+   50,
+   50
+  ],
+  "map_color": [
+   198,
+   45,
+   45
+  ],
+  "culture": "western_european",
+  "ideology": "neutrality",
+  "leader": "Daniell",
+  "capital_city": "Rome",
+  "playable": false
+ },
+ {
+  "index": 13,
+  "tag": "KHZ",
+  "name": "Khazaria",
+  "long": "Pastoral Confederation",
+  "adj": "Khazar",
+  "color": [
+   70,
+   110,
+   40
+  ],
+  "map_color": [
+   57,
+   99,
+   36
+  ],
+  "culture": "middle_eastern",
+  "ideology": "neutrality",
+  "leader": "Chinook",
+  "capital_city": "Tamatarkha",
+  "playable": false
+ },
+ {
+  "index": 14,
+  "tag": "LLY",
+  "name": "Lillalys",
+  "long": "Lillalys",
+  "adj": "Lillalysian",
+  "color": [
+   160,
+   20,
+   180
+  ],
+  "map_color": [
+   166,
+   0,
+   189
+  ],
+  "culture": "western_european",
+  "ideology": "neutrality",
+  "leader": "Buckeria",
+  "capital_city": "Nazareth",
+  "playable": false
+ },
+ {
+  "index": 15,
+  "tag": "MDG",
+  "name": "Madagascar",
+  "long": "Madagascar",
+  "adj": "Malagasy",
+  "color": [
+   240,
+   130,
+   20
+  ],
+  "map_color": [
+   255,
+   127,
+   0
+  ],
+  "culture": "western_european",
+  "ideology": "neutrality",
+  "leader": "Dougrasus",
+  "capital_city": "Madagascar",
+  "playable": false
+ },
+ {
+  "index": 16,
+  "tag": "PSH",
+  "name": "Pesh",
+  "long": "Peshite State",
+  "adj": "Peshite",
+  "color": [
+   150,
+   90,
+   125
+  ],
+  "map_color": [
+   150,
+   89,
+   123
+  ],
+  "culture": "eastern_european",
+  "ideology": "communism",
+  "leader": "BrotherSlimJim",
+  "capital_city": "Peshograd",
+  "playable": false
+ },
+ {
+  "index": 17,
+  "tag": "TRG",
+  "name": "Tuareg",
+  "long": "Tuareg Confederation",
+  "adj": "Tuareg",
+  "color": [
+   235,
+   160,
+   95
+  ],
+  "map_color": [
+   244,
+   164,
+   96
+  ],
+  "culture": "middle_eastern",
+  "ideology": "neutrality",
+  "leader": "Clan Gathering",
+  "capital_city": "Tuareg",
+  "playable": false
+ },
+ {
+  "index": 0,
+  "tag": "WLD",
+  "name": "Unclaimed Lands",
+  "long": "Unclaimed Lands of Orbis",
+  "adj": "Wildland",
+  "color": [
+   128,
+   124,
+   110
+  ],
+  "ideology": "neutrality",
+  "capital_city": null,
+  "playable": false,
+  "leader": "No One",
+  "culture": "western_european"
+ }
+]

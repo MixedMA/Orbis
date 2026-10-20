@@ -1,0 +1,22 @@
+state={
+	id=229
+	name="STATE_229"
+	manpower = 315000
+	state_category = rural
+
+	history={
+		owner = RHO
+		victory_points = { 3040 1 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = RHO
+	}
+
+	provinces={
+		558 569 575 2722 3005 3040 3363 
+	}
+	local_supplies=0.0
+}

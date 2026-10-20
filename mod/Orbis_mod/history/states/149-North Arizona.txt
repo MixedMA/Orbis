@@ -1,0 +1,24 @@
+state={
+	id=149
+	name="STATE_149"
+	manpower = 225000
+	state_category = rural
+	resources={
+		oil=7.000
+	}
+
+	history={
+		owner = OCD
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = OCD
+	}
+
+	provinces={
+		571 1347 1512 2312 2811 
+	}
+	local_supplies=0.0
+}
