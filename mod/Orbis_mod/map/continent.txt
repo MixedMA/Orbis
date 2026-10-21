@@ -1,0 +1,6 @@
+continents = {
+	wozgoria
+	daukia
+	afontova
+	eos
+}

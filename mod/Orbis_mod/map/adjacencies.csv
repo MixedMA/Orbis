@@ -1,0 +1,32 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+2832;3233;sea;656;-1;-1;-1;-1;;crossings_anthropia_1.png
+3454;1819;sea;273;-1;-1;-1;-1;;crossings_anthropia_1.png
+951;1363;sea;273;-1;-1;-1;-1;;crossings_anthropia_1.png
+1202;1363;sea;273;-1;-1;-1;-1;;crossings_anthropia_1.png
+2266;300;sea;273;-1;-1;-1;-1;;crossings_anthropia_1.png
+1819;2674;sea;273;-1;-1;-1;-1;;crossings_anthropia_1.png
+1363;2266;sea;273;-1;-1;-1;-1;;crossings_anthropia_1.png
+2266;2678;sea;273;-1;-1;-1;-1;;crossings_anthropia_1.png
+2935;1066;sea;76;-1;-1;-1;-1;;crossings_11.png
+2935;974;sea;76;-1;-1;-1;-1;;crossings_11.png
+1498;2597;sea;422;-1;-1;-1;-1;;crossings_12.png
+939;2352;sea;289;-1;-1;-1;-1;;crossings_12.png
+939;2352;sea;289;-1;-1;-1;-1;;crossings_12.png
+1709;2115;sea;544;-1;-1;-1;-1;;crossings_13.png
+1712;2925;sea;211;-1;-1;-1;-1;;crossings_16.png
+1784;2105;sea;607;-1;-1;-1;-1;;crossings_16.png
+254;2142;sea;78;-1;-1;-1;-1;;crossings_16.png
+2526;2099;sea;78;-1;-1;-1;-1;;crossings_16.png
+3215;2369;sea;20;-1;-1;-1;-1;;crossings_16.png
+2101;2150;sea;351;-1;-1;-1;-1;;crossings_17.png
+2019;2460;sea;351;-1;-1;-1;-1;;crossings_17.png
+735;744;sea;590;-1;-1;-1;-1;;crossings_17.png
+2077;2446;sea;307;-1;-1;-1;-1;;crossings_14.png
+2315;1178;sea;24;-1;-1;-1;-1;;crossings_14.png
+1566;886;sea;106;-1;-1;-1;-1;;crossings_15.png
+358;457;sea;93;-1;-1;-1;-1;;crossings_15.png
+2326;796;sea;310;-1;-1;-1;-1;;crossings_15.png
+399;710;sea;310;-1;-1;-1;-1;;crossings_15.png
+3506;3044;sea;41;-1;-1;-1;-1;;crossing_troy (by city, 2026-10-20)
+1041;1947;sea;328;-1;-1;-1;-1;;crossing_vostaniye (by city, 2026-10-20)
+-1;-1;;-1;-1;-1;-1;-1;-1

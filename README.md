@@ -4,8 +4,14 @@ A total conversion mod for **Hearts of Iron IV** (1.19) based on the world of th
 Season 1, a 4000x4000 block map). It starts in 1850 BCS, two years before the Orbis WW2. The map, provinces,
 states, cities and borders are drawn by hand as pictures and turned into game files by the scripts in `tools/`.
 
-Not affiliated with Paradox Interactive. You need your own copy of Hearts of Iron IV; this repository contains no
-game files (the build copies the few it needs from your installation).
+Not affiliated with Paradox Interactive. You need your own copy of Hearts of Iron IV. Apart from two small game files
+the mod needs to start (the generic focus tree and the dynamic country tags), the repository contains no game files.
+
+## Playing
+The built mod is in the repository (`mod/Orbis_mod`, including the generated map), so you can play without building:
+clone or download the repository, make a launcher file `Orbis_mod.mod` in
+`Documents/Paradox Interactive/Hearts of Iron IV/mod/` with the contents of `mod/Orbis_mod/descriptor.mod` plus a
+line `path="<where you put it>/mod/Orbis_mod"`, and enable only the Orbis mod.
 
 ## How it works
 You edit the **painted maps** in `source/` and run the pipeline, which writes the mod to `mod/Orbis_mod`.

@@ -43,7 +43,9 @@ BMC Minecraft server "Orbis" (Season 1, 4000×4000 blocks, seed -109313319010159
 ## Git
 The repository is public: https://github.com/MixedMA/Orbis (branch main). The user wants every change committed and pushed,
 always: after each finished piece of work `git add -A && git commit && git push` (identity MixedMA, repo-local config).
-build/, out/ and most of .work/ are ignored; no Paradox game files and no personal data in the repo.
+build/, out/ and most of .work/ are ignored. The built mod incl. the generated map is committed (user, 2026-10-21, so
+friends can play from the repo); unchanged vanilla map copies are left out, generic.txt and zz_dynamic_countries.txt are in.
+No personal data in the repo.
 
 ## Pipeline (run `sh tools/run_all.sh`, ~6 min, ends with validate_mod.py)
 build_base → build_provinces → write_provinces → write_terrain → write_rivers → build_states →
