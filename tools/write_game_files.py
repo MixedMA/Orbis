@@ -382,8 +382,8 @@ def main():
         pops = {"democratic": 10, "fascism": 5, "communism": 10, "neutrality": 75}
         if ide != "neutrality":
             pops = {k: 10 for k in pops}
-            pops[ide] = 70
             pops["fascism"] = 5
+            pops[ide] = 70                       # after the minority defaults, so a fascist ruler keeps 70
             pops["neutrality"] = 100 - sum(v for k, v in pops.items() if k != "neutrality")
         tech = "" if c.get("wild") else (
             "set_technology = {\n\tinfantry_weapons = 1\n\tinfantry_weapons1 = 1\n\ttech_support = 1\n"

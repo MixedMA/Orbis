@@ -181,6 +181,7 @@ def main():
     for e in errors[:40]:
         print("ERROR", e)
     print("OK - no errors" if not errors else f"{len(errors)} errors")
+    sys.exit(1 if errors else 0)       # run_all.sh (set -e) stops on a failed validation
 
 
 if __name__ == "__main__":

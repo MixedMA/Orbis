@@ -35,6 +35,11 @@ the problems found so far (read it before changing the pipeline).
    points to `mod/Orbis_mod`, then start the game with only the Orbis mod enabled.
 
 ## Rules for contributors
+- **Generated folders: never edit by hand.** Every build deletes and rewrites `mod/Orbis_mod/history/states`,
+  `history/countries`, `map/strategicregions`, `common/bookmarks`, the map files and the flags/localisation it writes.
+  Change their sources instead (painted maps, `data/`, `tools/scenario.py`). Hand-made content (focus trees, events,
+  decisions, ideas) goes in its own files, e.g. `common/national_focus/<tag>.txt` or `events/<topic>.txt`, which the
+  build does not touch.
 - Never overwrite the painted maps with exports (`tools/export_*.py` refuse without `--force`); change them in a
   paint program and commit the picture.
 - One change per commit, and run the pipeline before pushing.
