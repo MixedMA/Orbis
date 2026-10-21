@@ -125,9 +125,9 @@ write_game_files → render_overview → validate_mod.
   Debug recipe for engine crashes: ProcDump full dump (`.work/procdump_dl/procdump64.exe -ma -e hoi4.exe <dir>`),
   then read registers/objects with `.work/dump.py` and `.work/full.py`.
 
-## Status (2026-10-18)
-Mod boots and the menu works. The game-start crash was traced to a pixel-corner coast contact (see Pipeline);
-the fix is in the pipeline, awaiting an in-game test. Own colormap textures: tools/write_colormaps.py (in run_all;
+## Status (2026-10-21)
+The game starts and runs (user confirmed after the building-position fix, the single Wilds nation, flags and the
+start economy). Own colormap textures: tools/write_colormaps.py (in run_all;
 land colour per vanilla terrain index measured from vanilla, water by distance to land, city lights, fog of war).
 Not done yet: armies (history/units),
 focus trees, events, more factions, real flags (placeholders now), BCS date display in the top bar.
