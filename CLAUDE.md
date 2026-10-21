@@ -9,7 +9,8 @@ BMC Minecraft server "Orbis" (Season 1, 4000×4000 blocks, seed -109313319010159
   `C:\Users\<you>\Documents\Paradox Interactive\Hearts of Iron IV\mod\Orbis_mod.mod`, whose `path=` points to F.
 - Scratch work: `F:\Claude\Orbis\.work\` (helper scripts, pylib with pefile/capstone/minidump, ProcDump);
   full crash dumps go to `build/crashdump/`.
-  The game reads `replace_path` from `mod/Orbis_mod.mod`, not from `descriptor.mod`: keep both in sync.
+  The game reads `replace_path` from `mod/Orbis_mod.mod`, not from `descriptor.mod`: keep both in sync, and the repo's
+  launcher file `F:\Claude\Orbis\mod\Orbis_mod.mod` (relative path="mod/Orbis_mod", for friends) as well.
   Vanilla `common/on_actions` and `events` are replaced: their on_startup scripts hard-code vanilla states/tags and crashed game start.
   `common/national_focus` is replaced too, so the mod must ship a focus tree with `default = yes`
   (copy of vanilla `generic.txt`); without one the game crashes while loading.

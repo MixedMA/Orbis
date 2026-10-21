@@ -9,9 +9,9 @@ the mod needs to start (the generic focus tree and the dynamic country tags), th
 
 ## Playing
 The built mod is in the repository (`mod/Orbis_mod`, including the generated map), so you can play without building:
-clone or download the repository, make a launcher file `Orbis_mod.mod` in
-`Documents/Paradox Interactive/Hearts of Iron IV/mod/` with the contents of `mod/Orbis_mod/descriptor.mod` plus a
-line `path="<where you put it>/mod/Orbis_mod"`, and enable only the Orbis mod.
+clone or download the repository and copy both `mod/Orbis_mod.mod` and the folder `mod/Orbis_mod` into
+`Documents/Paradox Interactive/Hearts of Iron IV/mod/`. Then enable only the Orbis mod in the launcher.
+(If you keep the folder somewhere else, change the `path=` line in `Orbis_mod.mod` to that folder.)
 
 ## How it works
 You edit the **painted maps** in `source/` and run the pipeline, which writes the mod to `mod/Orbis_mod`.

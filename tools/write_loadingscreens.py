@@ -33,7 +33,7 @@ def main():
     docs = Path.home() / "Documents/Paradox Interactive/Hearts of Iron IV/mod/Orbis_mod.mod"
     if not pics:                       # undo everything a previous run added, so vanilla's backgrounds come back
         (mod / "interface/orbis_backgrounds.gfx").unlink(missing_ok=True)
-        for f in (mod / "descriptor.mod", docs):
+        for f in (mod / "descriptor.mod", mod.parent / "Orbis_mod.mod", docs):
             if f.exists() and line in f.read_text(encoding="utf-8"):
                 f.write_text("".join(l for l in f.read_text(encoding="utf-8").splitlines(True) if l.strip() != line),
                              encoding="utf-8")
@@ -56,7 +56,7 @@ def main():
     (mod / "common/frontend/backgrounds").mkdir(parents=True, exist_ok=True)
     (mod / "common/frontend/backgrounds/orbis_backgrounds.txt").write_text(
         "".join(f"{n} = {{\n}}\n\n" for n in names), encoding="utf-8")
-    for f in (mod / "descriptor.mod", docs):
+    for f in (mod / "descriptor.mod", mod.parent / "Orbis_mod.mod", docs):
         if f.exists() and line not in f.read_text(encoding="utf-8"):
             f.write_text(f.read_text(encoding="utf-8").rstrip("\n") + "\n" + line + "\n", encoding="utf-8")
             print("added replace_path to", f)
