@@ -1,0 +1,489 @@
+focus_tree = {
+    id = SCP_focus
+    country = { factor = 0 modifier = { add = 10 tag = SCP } }
+    default = no
+    continuous_focus_position = { x = 50 y = 1000 }
+    focus = {
+        id = SCP_start
+        icon = GFX_goal_unknown
+        x = 8
+        y = 0
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_start completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus
+        icon = GFX_goal_unknown
+        x = 4
+        y = 2
+        cost = 10
+        prerequisite = { focus = SCP_start }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_1
+        icon = GFX_goal_unknown
+        x = 11
+        y = 2
+        cost = 10
+        prerequisite = { focus = SCP_start }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_1 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_2
+        icon = GFX_goal_unknown
+        x = 15
+        y = 2
+        cost = 10
+        prerequisite = { focus = SCP_start }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_2 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_3
+        icon = GFX_goal_unknown
+        x = 23
+        y = 0
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_3 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_4
+        icon = GFX_goal_unknown
+        x = -5
+        y = 2
+        cost = 10
+        prerequisite = { focus = SCP_start }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_4 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_5
+        icon = GFX_goal_unknown
+        x = 4
+        y = 4
+        cost = 10
+        prerequisite = { focus = SCP_focus }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_5 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_6
+        icon = GFX_goal_unknown
+        x = 11
+        y = 4
+        cost = 10
+        prerequisite = { focus = SCP_focus_1 }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_6 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_7
+        icon = GFX_goal_unknown
+        x = -5
+        y = 4
+        cost = 10
+        prerequisite = { focus = SCP_focus_4 }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_7 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_8
+        icon = GFX_goal_unknown
+        x = -5
+        y = 4
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_8 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_9
+        icon = GFX_goal_unknown
+        x = -5
+        y = 6
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_9 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_10
+        icon = GFX_goal_unknown
+        x = -7
+        y = 8
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_10 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_11
+        icon = GFX_goal_unknown
+        x = -7
+        y = 10
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_11 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_12
+        icon = GFX_goal_unknown
+        x = -3
+        y = 8
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_12 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_13
+        icon = GFX_goal_unknown
+        x = -3
+        y = 10
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_13 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_14
+        icon = GFX_goal_unknown
+        x = -5
+        y = 12
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_14 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_15
+        icon = GFX_goal_unknown
+        x = -5
+        y = 14
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_15 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_16
+        icon = GFX_goal_unknown
+        x = -7
+        y = 16
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_16 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_16_paste
+        icon = GFX_goal_unknown
+        x = -3
+        y = 16
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_16_paste completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_17
+        icon = GFX_goal_unknown
+        x = -7
+        y = 18
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_17 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_18
+        icon = GFX_goal_unknown
+        x = -3
+        y = 18
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_18 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_19
+        icon = GFX_goal_unknown
+        x = -7
+        y = 20
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_19 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_19_paste
+        icon = GFX_goal_unknown
+        x = -3
+        y = 20
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_19_paste completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_20
+        icon = GFX_goal_unknown
+        x = 4
+        y = 6
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_20 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_21
+        icon = GFX_goal_unknown
+        x = 4
+        y = 8
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_21 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_22
+        icon = GFX_goal_unknown
+        x = 4
+        y = 10
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_22 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_23
+        icon = GFX_goal_unknown
+        x = 7
+        y = 14
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_23 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_24
+        icon = GFX_goal_unknown
+        x = 11
+        y = 6
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_24 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_25
+        icon = GFX_goal_unknown
+        x = 11
+        y = 8
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_25 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_26
+        icon = GFX_goal_unknown
+        x = 11
+        y = 10
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_26 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_27
+        icon = GFX_goal_unknown
+        x = 15
+        y = 4
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_27 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_28
+        icon = GFX_goal_unknown
+        x = 15
+        y = 6
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_28 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_29
+        icon = GFX_goal_unknown
+        x = 15
+        y = 8
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_29 completed"
+        }
+    }
+
+    focus = {
+        id = SCP_focus_30
+        icon = GFX_goal_unknown
+        x = 15
+        y = 10
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus SCP_focus_30 completed"
+        }
+    }
+
+}
